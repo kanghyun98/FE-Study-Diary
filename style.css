@@ -5,8 +5,9 @@
   padding: 20px 10px;
 }
 
-#section_search input:first-child {
+#search-section input:first-child {
   margin-right: 5px;
+  width: 50%;
 }
 
 #result-section {
