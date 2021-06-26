@@ -15,10 +15,17 @@
 }
 
 .result-section__container {
+  /* 컨테이너 간 간격 */
+}
+
+.result-section__month {
+  /* 글시체, 투명도, */
+}
+
+.result-section__boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding-top: 50px;
 }
 
 .result-section__box {
