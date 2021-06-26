@@ -26,14 +26,3 @@
   height: 350px;
   margin: 10px 1%;
 }
-
-.result-section__title {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 10px;
-}
-
-.result-section__img {
-  width: 100%;
-  height: 50%;
-}
