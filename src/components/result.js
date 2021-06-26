@@ -1,13 +1,9 @@
 import {studyData06, studyData07} from '../data.js';
 
-
-console.log(studyData06[0].date.slice(0,7));
-console.log(studyData06[0].date.slice(5,));
-
-const section = document.querySelector("#result-section")
+const section = document.querySelector(".result-section")
 
 makeBox(studyData06);
-// makeBox(studyData07);
+makeBox(studyData07);
 
 function makeBox(data) {
     const divContainer = document.createElement('div');
@@ -15,7 +11,7 @@ function makeBox(data) {
     
     const h3Month = document.createElement('h3');
     h3Month.className = "result-section__month";
-    h3Month.innerText = data[0].date.slice(0,7);
+    h3Month.innerText = data[0].date.slice(0,4) + "년 " + data[0].date.slice(5,7) + "월";
     
     const divBoxes = document.createElement('div');
     divBoxes.className = "result-section__boxes";
@@ -26,7 +22,7 @@ function makeBox(data) {
         
         let pDate = document.createElement('p');
         pDate.className = "result-section__date"
-        pDate.innerText = data[i].date.slice(5,);
+        pDate.innerText = data[i].date.slice(5,7) + "월 " + data[i].date.slice(8,) + "일";
         
         let ulList = document.createElement('ul');
         ulList.className = "result-section__list";

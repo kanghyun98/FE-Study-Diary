@@ -1,25 +1,42 @@
-#search-section {
+body {
+  background-color: whitesmoke;
+  font-family: NotoSans Medium, Malgun Gothic, 맑은 고딕, Apple SD Gothic Neo,
+    돋움, dotum, sans-serif;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.search-section {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px 10px;
 }
 
-#search-section input:first-child {
+.search-section input:first-child {
   margin-right: 5px;
-  width: 50%;
+  width: 40%;
+  font-size: 20px;
 }
 
-#result-section {
+.result-section {
   margin: 0 10%;
 }
 
 .result-section__container {
-  /* 컨테이너 간 간격 */
+  margin-bottom: 50px;
 }
 
 .result-section__month {
-  /* 글시체, 투명도, */
+  font-weight: 700;
+  font-size: 28px;
+  opacity: 0.7;
+  margin-left: 10px;
 }
 
 .result-section__boxes {
@@ -30,6 +47,21 @@
 
 .result-section__box {
   width: 250px;
-  height: 350px;
-  margin: 10px 1%;
+  height: 250px;
+  margin: 10px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 20px;
+}
+
+.result-section__date {
+  margin-left: 18px;
+  font-size: 17px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.result-section__lists {
+  padding: 5px 0;
+  letter-spacing: -0.2px;
+  opacity: 0.9;
 }
