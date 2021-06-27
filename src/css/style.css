@@ -46,8 +46,8 @@ body {
 }
 
 .result-section__box {
-  width: 250px;
-  height: 250px;
+  width: 260px;
+  height: 300px;
   margin: 10px;
   background-color: rgb(235, 235, 235);
   border-radius: 20px;
