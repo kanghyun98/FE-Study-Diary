@@ -117,13 +117,12 @@ export const studyData06 = [
                 ]
             },
             {
-                "subject": "새로운 변화",
-                "arr": "CSS class-name 방법론",
-                "myLink": "https://nykim.work/15",
+                "subject": "Search (적용)",
+                "arr": "검색 로직 구현, 새로고침 후에도 화면 유지",
+                "myLink": "",
                 "refLink": [
-                    "https://newindow.tistory.com/66",
-                    "https://github.com/woohyeonjo/ilovecat-javascript",
-                    "https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/JSON"
+                    "https://velog.io/@hyeon930/%EC%9C%A0%EC%A0%80%EC%9D%98-%EC%9E%85%EB%A0%A5%EC%97%90-%EB%B0%98%EC%9D%91%ED%95%98%EA%B8%B0-%EB%A1%9C%EB%94%A9-%ED%99%94%EB%A9%B4%EA%B3%BC-%EA%B2%B0%EA%B3%BC-%EC%97%86%EC%9D%8C-Event-loop-Class",
+                    "https://velog.io/@hyeon930/%EC%83%88%EB%A1%9C%EA%B3%A0%EC%B9%A8-%ED%9B%84%EC%97%90%EB%8F%84-%EA%B2%B0%EA%B3%BC-%ED%99%94%EB%A9%B4-%EC%9C%A0%EC%A7%80%ED%95%98%EA%B8%B0-Web-Storage-API",
                 ],
             },
         ],
