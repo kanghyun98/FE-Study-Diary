@@ -108,13 +108,12 @@ export const studyData06 = [
         "date": "2021.06.28",
         "studyList": [
             {
-                "subject": "ㄴㅇㄹㄴㅇㄹ",
-                "arr": "Model, View, Controller",
-                "myLink": "https://newindow.tistory.com/66",
+                "subject": "Web Storage API (적용)",
+                "arr": "임시 저장 장소",
+                "myLink": "https://www.notion.so/Web-Storage-API-2cc64fee30544cb98a1f2dab2057523e",
                 "refLink": [
-                    "https://developers.kakao.com/",
-                    "https://www.naver.com/",
-                    "https://www.google.co.kr/"
+                    "https://velog.io/@hyeon930/%EC%83%88%EB%A1%9C%EA%B3%A0%EC%B9%A8-%ED%9B%84%EC%97%90%EB%8F%84-%EA%B2%B0%EA%B3%BC-%ED%99%94%EB%A9%B4-%EC%9C%A0%EC%A7%80%ED%95%98%EA%B8%B0-Web-Storage-API",
+                    "https://developer.mozilla.org/ko/docs/Web/API/Web_Storage_API",
                 ]
             },
             {
