@@ -1,11 +1,7 @@
 import {studyData06, studyData07} from '../data.js';
 
-const section = document.querySelector(".result-section")
-
-makeBox(studyData06);
-makeBox(studyData07);
-
-function makeBox(data) {
+export function makeBox(data) {
+    const section = document.querySelector(".result-section");
     const divContainer = document.createElement('div');
     divContainer.className = "result-section__container";
     
@@ -15,7 +11,7 @@ function makeBox(data) {
     
     const divBoxes = document.createElement('div');
     divBoxes.className = "result-section__boxes";
-
+    
     for (let i = 0; i < data.length; i++) {
         let divBox = document.createElement('div');
         divBox.className = "result-section__box";
@@ -34,13 +30,16 @@ function makeBox(data) {
             liLists[j].innerText = data[i].studyList[j].subject;
             ulList.appendChild(liLists[j]);
         }
-
+        
         divBox.appendChild(pDate);
         divBox.appendChild(ulList);
         divBoxes.appendChild(divBox);
     }
-
+    
     divContainer.appendChild(h3Month);
     divContainer.appendChild(divBoxes);
     section.appendChild(divContainer);
 }
+
+makeBox(studyData06);
+makeBox(studyData07);
