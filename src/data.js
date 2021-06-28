@@ -13,7 +13,7 @@ export const studyData06 = [
                 ],
             },
             {
-                "subject": "반응형 페이지",
+                "subject": "반응형 페이지 (적용)",
                 "arr": "화면 크기에 따른 페이지의 반응(flexbox)",
                 "myLink": "",
                 "refLink": [
@@ -21,7 +21,7 @@ export const studyData06 = [
                 ],
             },
             {
-                "subject": "JSON 파일 구조",
+                "subject": "JSON 파일 구조 (적용)",
                 "arr": "\"데이터이름\":값, 객체{}, 배열[], 추후에 class나 function 활용해 만들기  ",
                 "myLink": "",
                 "refLink": [
@@ -57,7 +57,7 @@ export const studyData06 = [
                 "myLink": "https://www.notion.so/Variable-let-Constant-const-b5cf20cdf27f4b44b0d8c564b4186146",
                 "refLink": [
                     "https://www.youtube.com/watch?v=_DLhUBWsRtw&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=6",
-                ]
+                ],
             },
             {
                 "subject": "Class",
@@ -65,6 +65,41 @@ export const studyData06 = [
                 "myLink": "https://www.notion.so/Class-bb4a0bf7d80340f79fcd91cff28f10f2",
                 "refLink": [
                     "https://www.youtube.com/watch?v=_DLhUBWsRtw&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=8",
+                ],
+            },
+            {
+                "subject": "비동기 처리",
+                "arr": "script 불러올 때 코드의 실행을 멈추지 않는 것",
+                "myLink": "https://www.notion.so/a0f0183c3d434182b103046cb2baaef3",
+                "refLink": [
+                    "https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/",
+                ],
+            },
+            {
+                "subject": "콜백 함수",
+                "arr": "다른 코드의 인자로 넘겨주는 함수",
+                "myLink": "https://www.notion.so/13c20635b4be4f0a9193c7218c5c6040",
+                "refLink": [
+                    "https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/",
+                    "https://www.youtube.com/watch?v=s1vpVCrT8f4&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=11",
+                ],
+            },
+            {
+                "subject": "Promise",
+                "arr": "콜백 지옥 해결법",
+                "myLink": "",
+                "refLink": [
+                    "https://joshua1988.github.io/web-development/javascript/promise-for-beginners/",
+                    "https://www.youtube.com/watch?v=JB_yU6Oe2eE&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=12",
+                ],
+            },
+            {
+                "subject": "async & await",
+                "arr": "콜백 함수와 프로미스의 단점 보완, 개발자가 읽기 좋은 코드 작성 가능하게 해줌",
+                "myLink": "",
+                "refLink": [
+                    "https://joshua1988.github.io/web-development/javascript/js-async-await/",
+                    "https://www.youtube.com/watch?v=aoQSOZfz3vQ&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=13",
                 ],
             },
         ],
