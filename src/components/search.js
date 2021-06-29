@@ -31,12 +31,14 @@ function printData(data) {
   let ulList = document.createElement("ul");
   ulList.className = "result-section__list";
 
-  let liLists = [];
+  let divLists = [];
   for (let j = 0; j < data.length; j++) {
-    liLists[j] = document.createElement("li");
-    liLists[j].className = "result-section__lists";
-    liLists[j].innerText = data[j].subject;
-    ulList.appendChild(liLists[j]);
+    const liList = document.createElement("li");
+    divLists[j] = document.createElement("div");
+    divLists[j].className = "result-section__lists";
+    divLists[j].innerText = data[j].subject;
+    liList.appendChild(divLists[j]);
+    ulList.appendChild(liList);
   }
   divBox.appendChild(pDate);
   divBox.appendChild(ulList);
@@ -89,9 +91,10 @@ function removeSearch() {
 }
 
 //검색 로딩 화면 구현, 삭제
-function loading() {
+function makeLoading() {
   const load = document.createElement("div");
   load.className = "loading";
+  load.classList.add("hidden");
 
   const loadText = document.createElement("span");
   loadText.innerText = "Loading...";
@@ -100,10 +103,13 @@ function loading() {
   document.body.appendChild(load);
 }
 
-function loadingRemove() {
-  const removeLoad = document.querySelector(".loading");
-  removeLoad.remove();
+function loading() {
+  const loadHtml = document.querySelector(".loading");
+  loadHtml.classList.toggle("hidden");
 }
+
+//로딩 화면 생성
+makeLoading();
 
 //검색 함수
 async function searchData() {
@@ -121,7 +127,7 @@ async function searchData() {
     } else {
       alert("검색 결과가 존재하지 않습니다.");
     }
-    loadingRemove(); //로딩완료
+    loading(); //로딩완료
   }
 }
 
