@@ -1,4 +1,7 @@
 import { studyData06, studyData07 } from "../data.js";
+import { makeModal } from "./modal.js";
+
+const allData = [studyData06, studyData07];
 
 export function makeBox(data) {
   const section = document.querySelector(".result-section");
@@ -37,13 +40,27 @@ export function makeBox(data) {
 
     //ul - li - div
     let divLists = [];
+    let liLists = [];
     for (let j = 0; j < data[i].studyList.length; j++) {
-      const liList = document.createElement("li");
+      liLists[j] = document.createElement("li");
+
       divLists[j] = document.createElement("div");
-      divLists[j].className = `result-section__lists${i}${j}`;
+      divLists[j].className = "result-section__lists";
       divLists[j].innerText = data[i].studyList[j].subject;
-      liList.appendChild(divLists[j]);
-      ulList.appendChild(liList);
+      liLists[j].appendChild(divLists[j]);
+      ulList.appendChild(liLists[j]);
+
+      //modal 삽입
+      const madeModal = makeModal(data[i].studyList[j]);
+      // madeModal.id = `modalId${i}${j}`; //modal 붙여주기 위해           //
+
+      // const hiddenModal = document.querySelector(`#modalId${i}${j}`);  //
+
+      divLists[j].addEventListener("click", () => {
+        //
+        hiddenModal.classList.toggle("hidden");
+      });
+      liLists[j].appendChild(madeModal);
     }
 
     divBox.appendChild(pDate);
@@ -58,3 +75,8 @@ export function makeBox(data) {
 
 makeBox(studyData06);
 makeBox(studyData07);
+
+const ttt = document.querySelector(".result-section");
+ttt.addEventListener("click", () => {
+  console.log("hey");
+});
