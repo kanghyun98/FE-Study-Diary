@@ -133,23 +133,26 @@ export const studyData06 = [
     date: "2021.06.29",
     studyList: [
       {
-        subject: "여섯자리안에",
-        arr: "Model, View, Controller",
-        myLink: "https://newindow.tistory.com/66",
+        subject: "Search Loading page (적용)",
+        arr: "검색 로딩 화면 구현",
+        myLink: "",
         refLink: [
-          "https://developers.kakao.com/",
-          "https://www.naver.com/",
-          "https://www.google.co.kr/",
+          "https://velog.io/@hyeon930/%EC%9C%A0%EC%A0%80%EC%9D%98-%EC%9E%85%EB%A0%A5%EC%97%90-%EB%B0%98%EC%9D%91%ED%95%98%EA%B8%B0-%EB%A1%9C%EB%94%A9-%ED%99%94%EB%A9%B4%EA%B3%BC-%EA%B2%B0%EA%B3%BC-%EC%97%86%EC%9D%8C-Event-loop-Class",
         ],
       },
       {
-        subject: "쓸수있도록",
-        arr: "CSS class-name 방법론",
-        myLink: "https://nykim.work/15",
+        subject: "bubbling / capturing ",
+        arr: "하단 요소의 이벤트 발생 시, 최상단 부모 요소까지의 핸들러 동작 ",
+        myLink: "",
+        refLink: ["https://ko.javascript.info/bubbling-and-capturing"],
+      },
+      {
+        subject: "Modal (적용)",
+        arr: "클릭 시, 로딩",
+        myLink: "",
         refLink: [
-          "https://newindow.tistory.com/66",
-          "https://github.com/woohyeonjo/ilovecat-javascript",
-          "https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/JSON",
+          "https://1ilsang.dev/2020-01-07/devlog/make-modal",
+          "https://velog.io/@hyeon930/Modal-%EB%A7%8C%EB%93%A4%EA%B8%B0-Event-propagation",
         ],
       },
     ],
