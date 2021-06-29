@@ -8,11 +8,11 @@ export function makeModal(modalData) {
   const modalContents = document.createElement("div");
   modalContents.className = "modal-wrapper__contents";
 
-  const spanSubject = document.createElement("span");
-  spanSubject.innerText = `제목: ${modalData.subject}`;
+  const h2Subject = document.createElement("h2");
+  h2Subject.innerText = `${modalData.subject}`;
 
   const spanArr = document.createElement("span");
-  spanArr.innerText = `내용: ${modalData.arr}`;
+  spanArr.innerText = `${modalData.arr}`;
 
   const aMyLink = document.createElement("a");
   aMyLink.innerText = `정리 노트: ${modalData.myLink}`;
@@ -31,12 +31,9 @@ export function makeModal(modalData) {
   const modalOverlay = document.createElement("div");
   modalOverlay.className = "modal-wrapper__overlay";
 
-  const modalAll = document.querySelector(".modal-wrapper");
-  modalOverlay.addEventListener("click", () =>
-    modalAll.classList.add("hidden")
-  );
+  modalOverlay.addEventListener("click", () => modal.classList.add("hidden"));
 
-  modalContents.appendChild(spanSubject);
+  modalContents.appendChild(h2Subject);
   modalContents.appendChild(spanArr);
   modalContents.appendChild(aMyLink);
   modalContents.appendChild(ulRefLink);
@@ -46,16 +43,3 @@ export function makeModal(modalData) {
 
   return modal;
 }
-
-export function showModal() {}
-
-// for (let i = 0; i < allData.length; i++) {
-//   for (let j = 0; j < allData[i].length; j++) {
-//     for (let k = 0; k < allData[i][j].studyList.length; k++) {
-//       let liAll = document.querySelector(`.type${j}${k}`);
-//       let myStudyList = allData[i][j].studyList[k];
-//       liAll.addEventListener("click", makeModal(myStudyList));
-//       ulList.appendChild(liAll);
-//     }
-//   }
-// }
