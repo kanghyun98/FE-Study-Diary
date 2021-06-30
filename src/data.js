@@ -66,6 +66,7 @@ export const studyData06 = [
         myLink: "https://www.notion.so/Class-bb4a0bf7d80340f79fcd91cff28f10f2",
         refLink: [
           "https://www.youtube.com/watch?v=_DLhUBWsRtw&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=8",
+          "https://parksb.github.io/article/1.html",
         ],
       },
       {
@@ -74,6 +75,7 @@ export const studyData06 = [
         myLink: "https://www.notion.so/a0f0183c3d434182b103046cb2baaef3",
         refLink: [
           "https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/",
+          "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE",
         ],
       },
       {
@@ -83,6 +85,7 @@ export const studyData06 = [
         refLink: [
           "https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/",
           "https://www.youtube.com/watch?v=s1vpVCrT8f4&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=11",
+          "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE",
         ],
       },
       {
@@ -92,6 +95,7 @@ export const studyData06 = [
         refLink: [
           "https://joshua1988.github.io/web-development/javascript/promise-for-beginners/",
           "https://www.youtube.com/watch?v=JB_yU6Oe2eE&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=12",
+          "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE",
         ],
       },
       {
@@ -148,7 +152,7 @@ export const studyData06 = [
       },
       {
         subject: "Modal (적용)",
-        arr: "클릭 시, 로딩",
+        arr: "클릭 시 모달 화면 구축, 외부화면 클릭 시 종료",
         myLink: "",
         refLink: [
           "https://1ilsang.dev/2020-01-07/devlog/make-modal",
@@ -161,23 +165,29 @@ export const studyData06 = [
     date: "2021.06.30",
     studyList: [
       {
-        subject: "WebAssembly",
-        arr: "Model, View, Controller",
-        myLink: "https://newindow.tistory.com/66",
+        subject: "실행 컨텍스트",
+        arr: "실행할 코드에 제공할 환경 정보들을 모아놓은 객체",
+        myLink: "https://www.notion.so/a886127eea944cb6ab2e32bfd474c48f",
         refLink: [
-          "https://developers.kakao.com/",
-          "https://www.naver.com/",
-          "https://www.google.co.kr/",
+          "https://im-designloper.tistory.com/21",
+          "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE",
         ],
       },
       {
-        subject: "Chrome의 새로운 변화",
-        arr: "CSS class-name 방법론",
-        myLink: "https://nykim.work/15",
+        subject: "함수 선언문과 함수 표현식",
+        arr: "함수 정의 방법",
+        myLink: "https://www.notion.so/ef577d785421444db530090baf039c4a",
         refLink: [
-          "https://newindow.tistory.com/66",
-          "https://github.com/woohyeonjo/ilovecat-javascript",
-          "https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/JSON",
+          "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE",
+        ],
+      },
+      {
+        subject: "this",
+        arr: "어떤 방식으로 함수를 호출하느냐에 따라 값이 달라짐",
+        myLink: "https://www.notion.so/this-96374298462846ee9ec20950294b85a7",
+        refLink: [
+          "https://https://im-designloper.tistory.com/23?category=1147115.tistory.com/66",
+          "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE",
         ],
       },
     ],
