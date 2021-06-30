@@ -1,6 +1,6 @@
-export const studyData = [
+export const studyData06 = [
   {
-    date: "2021/06/26",
+    date: "2021.06.26",
     studyList: [
       {
         subject: "시맨틱 웹",
@@ -49,7 +49,7 @@ export const studyData = [
     ],
   },
   {
-    date: "2021/06/27",
+    date: "2021.06.27",
     studyList: [
       {
         subject: "let / const",
@@ -109,7 +109,7 @@ export const studyData = [
     ],
   },
   {
-    date: "2021/06/28",
+    date: "2021.06.28",
     studyList: [
       {
         subject: "Web Storage API (적용)",
@@ -133,7 +133,7 @@ export const studyData = [
     ],
   },
   {
-    date: "2021/06/29",
+    date: "2021.06.29",
     studyList: [
       {
         subject: "Search Loading page (적용)",
@@ -161,7 +161,7 @@ export const studyData = [
     ],
   },
   {
-    date: "2021/06/30",
+    date: "2021.06.30",
     studyList: [
       {
         subject: "실행 컨텍스트",
@@ -200,8 +200,11 @@ export const studyData = [
       },
     ],
   },
+];
+
+export const studyData07 = [
   {
-    date: "2021/07/01",
+    date: "2021.07.01",
     studyList: [
       {
         subject: "WebAssembly",
@@ -226,7 +229,7 @@ export const studyData = [
     ],
   },
   {
-    date: "2021/07/02",
+    date: "2021.07.02",
     studyList: [
       {
         subject: "WebAssembly",
@@ -251,7 +254,7 @@ export const studyData = [
     ],
   },
   {
-    date: "2021/07/03",
+    date: "2021.07.03",
     studyList: [
       {
         subject: "WebAssembly",
@@ -276,7 +279,7 @@ export const studyData = [
     ],
   },
   {
-    date: "2021/07/04",
+    date: "2021.07.04",
     studyList: [
       {
         subject: "재밌게해보장",
