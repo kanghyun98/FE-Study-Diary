@@ -4,19 +4,24 @@ export default class Box {
     this.box = document.createElement("div");
     this.box.className = "result-section__box";
 
-    app.appendChild(this.box);
+    $target.appendChild(this.box);
 
     this.render();
   }
 
   render() {
-    console.log(this.data);
     const dayDate = this.data.date;
+
+    let dayPrint = dayDate;
+    if (dayDate.length === 10) {
+      dayPrint = `${dayDate.slice(5, 7)}월 ${dayDate.slice(8)}일`;
+    }
+
     const dayStudyList = this.data.studyList;
 
     const boxDate = document.createElement("p");
     boxDate.className = "result-section__date";
-    boxDate.innerText = `${dayDate.slice(5, 7)}월 ${dayDate.slice(8)}일`;
+    boxDate.innerText = dayPrint;
 
     const boxContents = document.createElement("ul");
     boxContents.className = "result-section__lists";
