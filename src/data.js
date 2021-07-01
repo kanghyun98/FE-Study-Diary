@@ -210,9 +210,10 @@ export const studyData = [
       },
       {
         id: "20",
-        subject: "oop 구현",
-        arr: "객체지향 프로그래밍으로 리팩토링",
-        myLink: "",
+        subject: "OOP 구현",
+        arr: "Refactoring: Box.js",
+        myLink:
+          "https://www.notion.so/Refactoring-2bb6012b484b4053a8c886366bb61752",
         refLink: [
           "https://parksb.github.io/article/1.html",
           "https://github.com/woohyeonjo/ilovecat-javascript",
@@ -225,24 +226,13 @@ export const studyData = [
     studyList: [
       {
         id: "21",
-        subject: "WebAssembly",
-        arr: "Model, View, Controller",
-        myLink: "https://newindow.tistory.com/66",
+        subject: "OOP 구현2",
+        arr: "Refactoring: Modal.js, Result.js",
+        myLink:
+          "https://www.notion.so/Refactoring-2bb6012b484b4053a8c886366bb61752",
         refLink: [
-          "https://developers.kakao.com/",
-          "https://www.naver.com/",
-          "https://www.google.co.kr/",
-        ],
-      },
-      {
-        id: "22",
-        subject: "Chrome의 새로운 변화",
-        arr: "CSS class-name 방법론",
-        myLink: "https://nykim.work/15",
-        refLink: [
-          "https://newindow.tistory.com/66",
+          "https://parksb.github.io/article/1.html",
           "https://github.com/woohyeonjo/ilovecat-javascript",
-          "https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/JSON",
         ],
       },
     ],

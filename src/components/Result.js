@@ -1,5 +1,4 @@
 import Box from "./Box.js";
-import Modal from "./Modal.js";
 
 export default class ResultSection {
   constructor({ $target, data }) {
@@ -9,7 +8,7 @@ export default class ResultSection {
     this.divSection.className = "result-section";
 
     $target.appendChild(this.divSection);
-
+    this.target = $target;
     this.render();
   }
 
@@ -33,14 +32,7 @@ export default class ResultSection {
       new Box({
         $target: boxList,
         data: box,
-        onClick: (data) => {
-          modal.setState(data);
-        },
       });
-    });
-
-    const modal = new Modal({
-      $target,
     });
 
     boxContainer.appendChild(boxList);

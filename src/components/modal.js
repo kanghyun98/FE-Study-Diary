@@ -1,7 +1,6 @@
 export default class Modal {
-  constructor({ $target }) {
-    this.isVisible = false;
-    this.data = null;
+  constructor({ $target, data }) {
+    this.data = data;
     this.modalWrapper = document.createElement("div");
     this.modalWrapper.className = "modal-wrapper";
     this.modalWrapper.classList.add("hidden");
@@ -11,29 +10,8 @@ export default class Modal {
     this.render();
   }
 
-  toggleModal() {
-    this.isVisible = !this.isVisible; //필요한가?
-
-    const modal = document.querySelector(".modal-wrapper");
-    modal.classList.toggle("hidden"); //필요한가?
-  }
-
-  setState(data) {
-    this.data = data;
-    this.toggleModal();
-    this.render();
-  }
-
-  onClose() {
-    this.toggleModal();
-    this.data = null;
-    this.modalWrapper.innerHTML = "";
-  }
-
-  render() {
-    if (!this.isVisible) return; //필요한가?
-
-    // modal 내부 (컨텐츠 보여주기) div - span - a, ul(-li-a)
+  // modal 내부 (컨텐츠 보여주기) div - span - a, ul(-li-a)
+  modalInside() {
     const modalContents = document.createElement("div");
     modalContents.className = "modal-wrapper__contents";
 
@@ -79,14 +57,6 @@ export default class Modal {
       ulRefLink.appendChild(liLinks);
     });
 
-    // modal 외부 (클릭 시 hidden)
-    const modalOverlay = document.createElement("div");
-    modalOverlay.className = "modal-wrapper__overlay";
-
-    modalOverlay.addEventListener("click", () => {
-      this.onClose();
-    });
-
     modalContents.appendChild(h2Subject);
     modalContents.appendChild(spanArr);
 
@@ -99,6 +69,22 @@ export default class Modal {
     modalContents.appendChild(divRef);
 
     this.modalWrapper.appendChild(modalContents);
+  }
+
+  // modal 외부 (클릭 시 hidden)
+  modalOutside() {
+    const modalOverlay = document.createElement("div");
+    modalOverlay.className = "modal-wrapper__overlay";
+
+    modalOverlay.addEventListener("click", () => {
+      this.modalWrapper.classList.toggle("hidden");
+    });
+
     this.modalWrapper.appendChild(modalOverlay);
+  }
+
+  render() {
+    this.modalInside();
+    this.modalOutside();
   }
 }

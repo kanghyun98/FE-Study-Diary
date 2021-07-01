@@ -3,7 +3,7 @@ import ResultSection from "./components/Result.js";
 
 export default class App {
   constructor($target, data) {
-    console.log(studyData);
+    console.log(this.data);
     data = this.data;
     const resultSection = new ResultSection({
       $target,

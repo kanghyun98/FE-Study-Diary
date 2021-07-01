@@ -1,7 +1,8 @@
+import Modal from "./Modal.js";
+
 export default class Box {
-  constructor({ $target, data, onClick }) {
+  constructor({ $target, data }) {
     this.data = data; //일
-    this.onClick = onClick; //modal
     this.box = document.createElement("div");
     this.box.className = "result-section__box";
     this.box.dataset.id = data.id;
@@ -9,11 +10,6 @@ export default class Box {
     $target.appendChild(this.box);
 
     this.render();
-  }
-
-  findByID(id) {
-    //modal
-    const result = this.data.find(study.id == study);
   }
 
   render() {
@@ -38,7 +34,14 @@ export default class Box {
       const divLists = document.createElement("div");
       divLists.className = "result-section__list";
       divLists.innerText = study.subject;
+
       liLists.appendChild(divLists);
+
+      const modal = new Modal({ $target: liLists, data: study }); //modal
+      divLists.addEventListener("click", () => {
+        modal.modalWrapper.classList.toggle("hidden");
+      });
+
       boxContents.appendChild(liLists);
     });
 
