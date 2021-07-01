@@ -1,12 +1,19 @@
 export default class Box {
-  constructor({ $target, data }) {
+  constructor({ $target, data, onClick }) {
     this.data = data; //일
+    this.onClick = onClick; //modal
     this.box = document.createElement("div");
     this.box.className = "result-section__box";
+    this.box.dataset.id = data.id;
 
     $target.appendChild(this.box);
 
     this.render();
+  }
+
+  findByID(id) {
+    //modal
+    const result = this.data.find(study.id == study);
   }
 
   render() {

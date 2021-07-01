@@ -1,9 +1,10 @@
-import Box from "./box.js";
-import { studyData } from "../data.js"; //test
+import Box from "./Box.js";
+import Modal from "./Modal.js";
 
 export default class ResultSection {
   constructor({ $target, data }) {
     this.data = data;
+
     this.divSection = document.createElement("div");
     this.divSection.className = "result-section";
 
@@ -32,14 +33,17 @@ export default class ResultSection {
       new Box({
         $target: boxList,
         data: box,
+        onClick: (data) => {
+          modal.setState(data);
+        },
       });
+    });
+
+    const modal = new Modal({
+      $target,
     });
 
     boxContainer.appendChild(boxList);
     this.divSection.appendChild(boxContainer);
   }
 }
-
-//test
-const app = document.querySelector(".app");
-const testData = new ResultSection({ $target: app, data: studyData });

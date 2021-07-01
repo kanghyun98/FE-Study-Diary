@@ -3,6 +3,7 @@ export const studyData = [
     date: "2021/06/26",
     studyList: [
       {
+        id: "1",
         subject: "시맨틱 웹",
         arr: "시맨틱 태그를 사용한 HTML, 웹페이지의 컨텐츠가 명확한 의미 가짐, HTML 태그 수정 필요",
         myLink: "",
@@ -13,6 +14,7 @@ export const studyData = [
         ],
       },
       {
+        id: "2",
         subject: "반응형 페이지 (적용)",
         arr: "화면 크기에 따른 페이지의 반응(flexbox)",
         myLink: "",
@@ -21,6 +23,7 @@ export const studyData = [
         ],
       },
       {
+        id: "3",
         subject: "JSON 파일 구조 (적용)",
         arr: '"데이터이름":값, 객체{}, 배열[], 추후에 class나 function 활용해 만들기  ',
         myLink: "",
@@ -30,6 +33,7 @@ export const studyData = [
         ],
       },
       {
+        id: "4",
         subject: "defer/async",
         arr: "브라우저 동작 방식 제어",
         myLink: "",
@@ -39,6 +43,7 @@ export const studyData = [
         ],
       },
       {
+        id: "5",
         subject: "라이브러리, 프레임워크, API, ABI",
         arr: "맛보기, 추후에 정리 필요",
         myLink: "",
@@ -52,6 +57,7 @@ export const studyData = [
     date: "2021/06/27",
     studyList: [
       {
+        id: "6",
         subject: "let / const",
         arr: "Variable(Mutable): let  / Constant(Immutable): const",
         myLink:
@@ -61,6 +67,7 @@ export const studyData = [
         ],
       },
       {
+        id: "7",
         subject: "Class",
         arr: "prototype을 활용하여 다른 언어들의 class와 유사한 기능 생성",
         myLink: "https://www.notion.so/Class-bb4a0bf7d80340f79fcd91cff28f10f2",
@@ -69,6 +76,7 @@ export const studyData = [
         ],
       },
       {
+        id: "8",
         subject: "비동기 처리",
         arr: "script 불러올 때 코드의 실행을 멈추지 않는 것",
         myLink: "https://www.notion.so/a0f0183c3d434182b103046cb2baaef3",
@@ -78,6 +86,7 @@ export const studyData = [
         ],
       },
       {
+        id: "9",
         subject: "콜백 함수",
         arr: "다른 코드의 인자로 넘겨주는 함수",
         myLink: "https://www.notion.so/13c20635b4be4f0a9193c7218c5c6040",
@@ -88,6 +97,7 @@ export const studyData = [
         ],
       },
       {
+        id: "10",
         subject: "Promise",
         arr: "콜백 지옥 해결법",
         myLink: "",
@@ -98,6 +108,7 @@ export const studyData = [
         ],
       },
       {
+        id: "11",
         subject: "async & await",
         arr: "콜백 함수와 프로미스의 단점 보완, 개발자가 읽기 좋은 코드 작성 가능하게 해줌",
         myLink: "",
@@ -112,6 +123,7 @@ export const studyData = [
     date: "2021/06/28",
     studyList: [
       {
+        id: "12",
         subject: "Web Storage API (적용)",
         arr: "임시 저장 장소",
         myLink:
@@ -122,6 +134,7 @@ export const studyData = [
         ],
       },
       {
+        id: "13",
         subject: "Search (적용)",
         arr: "검색 로직 구현, 새로고침 후에도 화면 유지",
         myLink: "",
@@ -136,6 +149,7 @@ export const studyData = [
     date: "2021/06/29",
     studyList: [
       {
+        id: "14",
         subject: "Search Loading page (적용)",
         arr: "검색 로딩 화면 구현",
         myLink: "",
@@ -144,12 +158,14 @@ export const studyData = [
         ],
       },
       {
+        id: "15",
         subject: "bubbling / capturing ",
         arr: "하단 요소의 이벤트 발생 시, 최상단 부모 요소까지의 핸들러 동작 ",
         myLink: "",
         refLink: ["https://ko.javascript.info/bubbling-and-capturing"],
       },
       {
+        id: "16",
         subject: "Modal (적용)",
         arr: "클릭 시 모달 화면 구축, 외부화면 클릭 시 종료",
         myLink: "",
@@ -164,6 +180,7 @@ export const studyData = [
     date: "2021/06/30",
     studyList: [
       {
+        id: "17",
         subject: "실행 컨텍스트",
         arr: "실행할 코드에 제공할 환경 정보들을 모아놓은 객체",
         myLink: "https://www.notion.so/a886127eea944cb6ab2e32bfd474c48f",
@@ -173,6 +190,7 @@ export const studyData = [
         ],
       },
       {
+        id: "18",
         subject: "함수 선언문과 함수 표현식",
         arr: "함수 정의 방법",
         myLink: "https://www.notion.so/ef577d785421444db530090baf039c4a",
@@ -181,6 +199,7 @@ export const studyData = [
         ],
       },
       {
+        id: "19",
         subject: "this",
         arr: "어떤 방식으로 함수를 호출하느냐에 따라 값이 달라짐",
         myLink: "https://www.notion.so/this-96374298462846ee9ec20950294b85a7",
@@ -190,6 +209,7 @@ export const studyData = [
         ],
       },
       {
+        id: "20",
         subject: "oop 구현",
         arr: "객체지향 프로그래밍으로 리팩토링",
         myLink: "",
@@ -204,6 +224,7 @@ export const studyData = [
     date: "2021/07/01",
     studyList: [
       {
+        id: "21",
         subject: "WebAssembly",
         arr: "Model, View, Controller",
         myLink: "https://newindow.tistory.com/66",
@@ -214,6 +235,7 @@ export const studyData = [
         ],
       },
       {
+        id: "22",
         subject: "Chrome의 새로운 변화",
         arr: "CSS class-name 방법론",
         myLink: "https://nykim.work/15",
@@ -229,6 +251,7 @@ export const studyData = [
     date: "2021/07/02",
     studyList: [
       {
+        id: "23",
         subject: "WebAssembly",
         arr: "Model, View, Controller",
         myLink: "https://newindow.tistory.com/66",
@@ -239,6 +262,7 @@ export const studyData = [
         ],
       },
       {
+        id: "24",
         subject: "Chrome의 새로운 변화",
         arr: "CSS class-name 방법론",
         myLink: "https://nykim.work/15",
@@ -254,6 +278,7 @@ export const studyData = [
     date: "2021/07/03",
     studyList: [
       {
+        id: "25",
         subject: "WebAssembly",
         arr: "Model, View, Controller",
         myLink: "https://newindow.tistory.com/66",
@@ -264,6 +289,7 @@ export const studyData = [
         ],
       },
       {
+        id: "26",
         subject: "Chrome의 새로운 변화",
         arr: "CSS class-name 방법론",
         myLink: "https://nykim.work/15",
@@ -279,6 +305,7 @@ export const studyData = [
     date: "2021/07/04",
     studyList: [
       {
+        id: "27",
         subject: "재밌게해보장",
         arr: "Model, View, Controller",
         myLink: "https://newindow.tistory.com/66",
@@ -289,6 +316,7 @@ export const studyData = [
         ],
       },
       {
+        id: "28",
         subject: "아자아자",
         arr: "CSS class-name 방법론",
         myLink: "https://nykim.work/15",
