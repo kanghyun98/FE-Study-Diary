@@ -248,7 +248,7 @@ export const studyData = [
           "https://www.notion.so/Refactoring-2bb6012b484b4053a8c886366bb61752",
         refLink: [
           "https://parksb.github.io/article/1.html",
-          "https://github.com/woohyeonjo/ilovecat-javascript",
+          "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce",
         ],
       },
     ],

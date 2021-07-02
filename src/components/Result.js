@@ -8,7 +8,7 @@ export default class ResultSection {
     this.divSection.className = "result-section";
 
     $target.appendChild(this.divSection);
-    this.target = $target;
+
     this.render();
   }
 
@@ -20,22 +20,36 @@ export default class ResultSection {
   render() {
     this.divSection.innerHTML = "";
 
-    const boxContainer = document.createElement("div");
-    boxContainer.className = "result-section__container";
+    const keyData = Object.keys(this.data);
+    keyData.map((key) => {
+      let monthData = this.data[key];
+      const boxContainer = document.createElement("div");
+      boxContainer.className = "result-section__container";
 
-    //h3.month 구현 필요
+      //h3.month
+      const h3Month = document.createElement("h3");
+      h3Month.className = "result-section__month";
 
-    const boxList = document.createElement("div");
-    boxList.className = "result-section__boxes";
+      if (key === "검색 결과") {
+        h3Month.innerText = key;
+      } else {
+        h3Month.innerText = `${key.slice(0, 4)}년 ${key.slice(5, 7)}월`;
+      }
 
-    this.data.map((box) => {
-      new Box({
-        $target: boxList,
-        data: box,
+      //boxes
+      const boxList = document.createElement("div");
+      boxList.className = "result-section__boxes";
+
+      monthData.map((box) => {
+        new Box({
+          $target: boxList,
+          data: box,
+        });
       });
-    });
 
-    boxContainer.appendChild(boxList);
-    this.divSection.appendChild(boxContainer);
+      boxContainer.appendChild(h3Month);
+      boxContainer.appendChild(boxList);
+      this.divSection.appendChild(boxContainer);
+    });
   }
 }

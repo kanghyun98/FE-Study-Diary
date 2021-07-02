@@ -13,12 +13,14 @@ export default class Box {
   }
 
   render() {
+    //DATE
     let dayPrint = this.data.date;
 
     if (dayPrint.length === 10) {
       dayPrint = `${dayPrint.slice(5, 7)}월 ${dayPrint.slice(8)}일`;
     }
 
+    //STUDY LIST
     const dayStudyList = this.data.studyList;
 
     const boxDate = document.createElement("p");
@@ -36,7 +38,8 @@ export default class Box {
 
       liLists.appendChild(divLists);
 
-      const modal = new Modal({ $target: liLists, data: study }); //modal
+      //MODAL
+      const modal = new Modal({ $target: liLists, data: study });
       divLists.addEventListener("click", () => {
         modal.modalWrapper.classList.toggle("hidden");
       });
