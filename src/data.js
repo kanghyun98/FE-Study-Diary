@@ -284,7 +284,7 @@ export const studyData = [
     date: "2021/07/04",
     studyList: [
       {
-        id: "25",
+        id: "",
         subject: "재밌게해보장",
         arr: "Model, View, Controller",
         myLink: "https://newindow.tistory.com/66",
@@ -295,7 +295,7 @@ export const studyData = [
         ],
       },
       {
-        id: "26",
+        id: "",
         subject: "아자아자",
         arr: "CSS class-name 방법론",
         myLink: "https://nykim.work/15",

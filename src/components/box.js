@@ -2,7 +2,7 @@ import Modal from "./Modal.js";
 
 export default class Box {
   constructor({ $target, data }) {
-    this.data = data; //일
+    this.data = data; //일별 data
     this.box = document.createElement("div");
     this.box.className = "result-section__box";
     this.box.dataset.id = data.id;
@@ -13,11 +13,10 @@ export default class Box {
   }
 
   render() {
-    const dayDate = this.data.date;
+    let dayPrint = this.data.date;
 
-    let dayPrint = dayDate;
-    if (dayDate.length === 10) {
-      dayPrint = `${dayDate.slice(5, 7)}월 ${dayDate.slice(8)}일`;
+    if (dayPrint.length === 10) {
+      dayPrint = `${dayPrint.slice(5, 7)}월 ${dayPrint.slice(8)}일`;
     }
 
     const dayStudyList = this.data.studyList;
