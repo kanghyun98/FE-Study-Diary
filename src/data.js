@@ -241,6 +241,22 @@ export const studyData = [
     date: "2021/07/02",
     studyList: [
       {
+        id: "22",
+        subject: "OOP 구현3",
+        arr: "Refactoring: Loading.js, Search.js, searchData.js, sessionStorage.js, App.js",
+        myLink:
+          "https://www.notion.so/Refactoring-2bb6012b484b4053a8c886366bb61752",
+        refLink: [
+          "https://parksb.github.io/article/1.html",
+          "https://github.com/woohyeonjo/ilovecat-javascript",
+        ],
+      },
+    ],
+  },
+  {
+    date: "2021/07/03",
+    studyList: [
+      {
         id: "23",
         subject: "WebAssembly",
         arr: "Model, View, Controller",
@@ -265,37 +281,10 @@ export const studyData = [
     ],
   },
   {
-    date: "2021/07/03",
-    studyList: [
-      {
-        id: "25",
-        subject: "WebAssembly",
-        arr: "Model, View, Controller",
-        myLink: "https://newindow.tistory.com/66",
-        refLink: [
-          "https://developers.kakao.com/",
-          "https://www.naver.com/",
-          "https://www.google.co.kr/",
-        ],
-      },
-      {
-        id: "26",
-        subject: "Chrome의 새로운 변화",
-        arr: "CSS class-name 방법론",
-        myLink: "https://nykim.work/15",
-        refLink: [
-          "https://newindow.tistory.com/66",
-          "https://github.com/woohyeonjo/ilovecat-javascript",
-          "https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/JSON",
-        ],
-      },
-    ],
-  },
-  {
     date: "2021/07/04",
     studyList: [
       {
-        id: "27",
+        id: "25",
         subject: "재밌게해보장",
         arr: "Model, View, Controller",
         myLink: "https://newindow.tistory.com/66",
@@ -306,7 +295,7 @@ export const studyData = [
         ],
       },
       {
-        id: "28",
+        id: "26",
         subject: "아자아자",
         arr: "CSS class-name 방법론",
         myLink: "https://nykim.work/15",
