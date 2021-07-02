@@ -19,6 +19,6 @@ export default class Loading {
     loadText.innerText = "Loading...";
 
     this.loadWrapper.appendChild(loadText);
-    document.body.appendChild(load);
+    document.body.appendChild(this.loadWrapper);
   }
 }

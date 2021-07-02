@@ -15,10 +15,10 @@ export default class App {
 
     const searchSection = new SearchSection({
       $target,
-      onSearch: (keyword) => {
+      onSearch: async (keyword) => {
         loading.toggleLoading(); //로딩화면 시작
 
-        const includeSearch = searchData(keyword, studyData);
+        const includeSearch = await searchData(keyword, studyData);
 
         saveData("searchList", includeSearch);
         resultSection.setState(includeSearch);
