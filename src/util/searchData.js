@@ -1,3 +1,5 @@
+import { saveData } from "./sessionStorage.js";
+
 //검색 keyword와 data를 받아 검색 후, data에 검색 결과 obj를 추가한 데이터 return
 export function searchData(keyword, data) {
   return new Promise((resolve) => {
@@ -24,6 +26,8 @@ export function searchData(keyword, data) {
       const resultObj = new Object();
       resultObj.date = "검색 결과";
       resultObj.studyList = searchArr;
+
+      saveData("searchList", resultObj);
 
       //studyData의 맨 앞에 검색 결과 object 추가
       const result = data.slice();
