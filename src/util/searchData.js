@@ -7,7 +7,9 @@ export function searchData(keyword, data) {
       const searchArr = new Array();
 
       if (keyword.length === 0) {
+        sessionStorage.removeItem("searchList");
         resolve(data);
+        return;
       }
 
       data.forEach((dayData) => {
