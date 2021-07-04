@@ -3,19 +3,9 @@ export const studyData = [
     date: "2021/06/26",
     studyList: [
       {
-        subject: "시맨틱 웹",
-        arr: "시맨틱 태그를 사용한 HTML, 웹페이지의 컨텐츠가 명확한 의미 가짐, HTML 태그 수정 필요",
-        myLink: "",
-        refLink: [
-          "https://www.w3schools.com/html/html5_semantic_elements.asp",
-          "https://velog.io/@hyeon930/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EC%97%90-%EB%94%B0%EB%A5%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1-%EC%8B%9C%EB%A7%A8%ED%8B%B1-%EC%9B%B9-%EB%B0%98%EC%9D%91%ED%98%95-%ED%8E%98%EC%9D%B4%EC%A7%80",
-          "https://soeunlee.medium.com/%EC%8B%9C%EB%A7%A8%ED%8B%B1%ED%95%98%EA%B2%8C-html%EC%9D%84-%EC%A7%A0%EB%8B%A4%EB%8A%94-%EA%B2%83-90612ffc988e",
-        ],
-      },
-      {
         subject: "반응형 페이지 (적용)",
         arr: "화면 크기에 따른 페이지의 반응(flexbox)",
-        myLink: "",
+        myLink: "https://www.notion.so/30f89e26ff6742ebaa92f2d489183a16",
         refLink: [
           "https://velog.io/@hyeon930/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EC%97%90-%EB%94%B0%EB%A5%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1-%EC%8B%9C%EB%A7%A8%ED%8B%B1-%EC%9B%B9-%EB%B0%98%EC%9D%91%ED%98%95-%ED%8E%98%EC%9D%B4%EC%A7%80",
         ],
@@ -90,7 +80,8 @@ export const studyData = [
       {
         subject: "Promise",
         arr: "콜백 지옥 해결법",
-        myLink: "",
+        myLink:
+          "https://www.notion.so/Promise-d6889f6940fd4d9ab6b76c632864c120",
         refLink: [
           "https://joshua1988.github.io/web-development/javascript/promise-for-beginners/",
           "https://www.youtube.com/watch?v=JB_yU6Oe2eE&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=12",
@@ -100,7 +91,8 @@ export const studyData = [
       {
         subject: "async & await",
         arr: "콜백 함수와 프로미스의 단점 보완, 개발자가 읽기 좋은 코드 작성 가능하게 해줌",
-        myLink: "",
+        myLink:
+          "https://www.notion.so/async-await-ca0959c0b01a44a8bc0416c25b54227b",
         refLink: [
           "https://joshua1988.github.io/web-development/javascript/js-async-await/",
           "https://www.youtube.com/watch?v=aoQSOZfz3vQ&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=13",
@@ -193,7 +185,7 @@ export const studyData = [
         subject: "OOP 구현",
         arr: "Refactoring: Box.js",
         myLink:
-          "https://www.notion.so/Refactoring-2bb6012b484b4053a8c886366bb61752",
+          "https://www.notion.so/FE-Study-Diary-Project-87a48dac152b49f49b8435a8a168b20d",
         refLink: [
           "https://parksb.github.io/article/1.html",
           "https://github.com/woohyeonjo/ilovecat-javascript",
@@ -208,7 +200,7 @@ export const studyData = [
         subject: "OOP 구현2",
         arr: "Refactoring: Modal.js, Result.js",
         myLink:
-          "https://www.notion.so/Refactoring-2bb6012b484b4053a8c886366bb61752",
+          "https://www.notion.so/FE-Study-Diary-Project-87a48dac152b49f49b8435a8a168b20d",
         refLink: [
           "https://parksb.github.io/article/1.html",
           "https://github.com/woohyeonjo/ilovecat-javascript",
@@ -221,9 +213,9 @@ export const studyData = [
     studyList: [
       {
         subject: "OOP 구현3",
-        arr: "Refactoring: Loading.js, Search.js, searchData.js, sessionStorage.js, App.js",
+        arr: "Refactoring: Loading.js, Search.js, searchData.js, App.js",
         myLink:
-          "https://www.notion.so/Refactoring-2bb6012b484b4053a8c886366bb61752",
+          "https://www.notion.so/FE-Study-Diary-Project-87a48dac152b49f49b8435a8a168b20d",
         refLink: [
           "https://parksb.github.io/article/1.html",
           "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce",
@@ -235,24 +227,17 @@ export const studyData = [
     date: "2021/07/03",
     studyList: [
       {
-        subject: "WebAssembly",
-        arr: "Model, View, Controller",
-        myLink: "https://newindow.tistory.com/66",
-        refLink: [
-          "https://developers.kakao.com/",
-          "https://www.naver.com/",
-          "https://www.google.co.kr/",
-        ],
+        subject: "OOP 구현4",
+        arr: "sessionStorage.js 및 검색 관련 버그 개선",
+        myLink:
+          "https://www.notion.so/FE-Study-Diary-Project-87a48dac152b49f49b8435a8a168b20d",
+        refLink: [""],
       },
       {
-        subject: "Chrome의 새로운 변화",
-        arr: "CSS class-name 방법론",
-        myLink: "https://nykim.work/15",
-        refLink: [
-          "https://newindow.tistory.com/66",
-          "https://github.com/woohyeonjo/ilovecat-javascript",
-          "https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/JSON",
-        ],
+        subject: "Study-Dairy Prject 내용 정리",
+        arr: "공부 및 경험했던 것들을 다시 돌아볼 수 있도록 내용 별 정리",
+        myLink: "https://github.com/20170781/FE-Study-Diary",
+        refLink: ["https://github.com/woohyeonjo/ilovecat-javascript"],
       },
     ],
   },
@@ -260,24 +245,28 @@ export const studyData = [
     date: "2021/07/04",
     studyList: [
       {
-        subject: "재밌게해보장",
-        arr: "Model, View, Controller",
-        myLink: "https://newindow.tistory.com/66",
+        subject: "Study-Dairy Prject 내용 정리 2",
+        arr: "내용 별 정리 마무리와 Git README.md에 정리",
+        myLink: "https://github.com/20170781/FE-Study-Diary",
+        refLink: [""],
+      },
+      {
+        subject: "Semantic Web",
+        arr: "Semantic(의미론적) 태그를 사용한 HTML에 대한 개념 정리",
+        myLink:
+          "https://www.notion.so/Semantic-Web-e3003a4c433c422fbc2395088ade42e9",
         refLink: [
-          "https://developers.kakao.com/",
-          "https://www.naver.com/",
-          "https://www.google.co.kr/",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
+          "https://soeunlee.medium.com/%EC%8B%9C%EB%A7%A8%ED%8B%B1%ED%95%98%EA%B2%8C-html%EC%9D%84-%EC%A7%A0%EB%8B%A4%EB%8A%94-%EA%B2%83-90612ffc988e",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
         ],
       },
       {
-        subject: "아자아자",
-        arr: "CSS class-name 방법론",
-        myLink: "https://nykim.work/15",
-        refLink: [
-          "https://newindow.tistory.com/66",
-          "https://github.com/woohyeonjo/ilovecat-javascript",
-          "https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/JSON",
-        ],
+        subject: "복습",
+        arr: "Semantic Web, 비동기 처리, 콜백 함수, Promise, async&await, this ",
+        myLink:
+          "https://www.notion.so/FE-Study-0c3c7eb719cc446b8e0a405fe715c253",
+        refLink: [""],
       },
     ],
   },
