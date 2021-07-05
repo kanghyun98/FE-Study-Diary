@@ -9,16 +9,13 @@ import { searchData } from "./util/searchData.js";
 
 export default class App {
   constructor($target) {
-    let allData;
-    if (callData("searchList") === null) {
-      allData = groupBy(studyData, "date");
-    } else {
-      const savedData = callData("searchList"); //session Storage에 저장된 data
-      const copyData = studyData.slice();
+    const savedData = callData("searchList"); //session Storage에 저장된 data
+    const copyData = [savedData, ...studyData];
 
-      copyData.unshift(savedData);
-      allData = groupBy(copyData, "date");
-    }
+    const startData =
+      callData("searchList") === null
+        ? groupBy(studyData, "date")
+        : groupBy(copyData, "date");
 
     const searchSection = new SearchSection({
       $target,
@@ -35,7 +32,7 @@ export default class App {
 
     const resultSection = new ResultSection({
       $target,
-      data: allData,
+      data: startData,
     });
 
     const loading = new Loading({ $target });

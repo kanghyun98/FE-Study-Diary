@@ -30,11 +30,8 @@ export default class ResultSection {
       const h3Month = document.createElement("h2");
       h3Month.className = "result-section__month";
 
-      if (key === "검색 결과") {
-        h3Month.innerText = key;
-      } else {
-        h3Month.innerText = `${key.slice(0, 4)}년 ${key.slice(5, 7)}월`;
-      }
+      h3Month.innerText =
+        key === "검색 결과" ? key : `${key.slice(0, 4)}년 ${key.slice(5, 7)}월`;
 
       //boxes
       const boxList = document.createElement("section");

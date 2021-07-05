@@ -13,11 +13,10 @@ export default class Box {
 
   render() {
     //DATE
-    let dayPrint = this.data.date;
-
-    if (dayPrint.length === 10) {
-      dayPrint = `${dayPrint.slice(5, 7)}월 ${dayPrint.slice(8)}일`;
-    }
+    const dayPrint =
+      this.data.date === "검색 결과"
+        ? null
+        : `${this.data.date.slice(5, 7)}월 ${this.data.date.slice(8)}일`;
 
     //STUDY LIST
     const dayStudyList = this.data.studyList;
