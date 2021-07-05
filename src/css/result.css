@@ -29,7 +29,7 @@
 
 .result-section__date {
   margin-left: 18px;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
   opacity: 0.6;
 }
@@ -38,4 +38,10 @@
   padding: 5px 0;
   letter-spacing: -0.2px;
   opacity: 0.9;
+}
+
+.result-section__lists p {
+  margin: 4px 0px;
+  padding-right: 20px;
+  font-size: 17px;
 }

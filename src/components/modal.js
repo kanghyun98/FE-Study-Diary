@@ -12,20 +12,20 @@ export default class Modal {
 
   // modal 내부 (컨텐츠 보여주기) div - span - a, ul(-li-a)
   modalInside() {
-    const modalContents = document.createElement("div");
+    const modalContents = document.createElement("section");
     modalContents.className = "modal-wrapper__contents";
 
     const h2Subject = document.createElement("h2"); //제목
     h2Subject.innerText = this.data.subject;
 
-    const spanArr = document.createElement("span"); //요약
+    const spanArr = document.createElement("p"); //요약
     spanArr.className = "arr";
     spanArr.innerText = this.data.arr;
 
     const divMy = document.createElement("div"); //정리 노트
     divMy.className = "myLink";
 
-    const spanMyMent = document.createElement("span");
+    const spanMyMent = document.createElement("h3");
     spanMyMent.innerText = "정리 노트";
 
     const aMyLink = document.createElement("a");
@@ -39,7 +39,7 @@ export default class Modal {
     const divRef = document.createElement("div"); //참조 링크
     divRef.className = "refLink";
 
-    const spanRefMent = document.createElement("span");
+    const spanRefMent = document.createElement("h3");
     spanRefMent.innerText = "참조 링크";
 
     const ulRefLink = document.createElement("ul");

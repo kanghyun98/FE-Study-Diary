@@ -12,7 +12,7 @@ export default class SearchSection {
 
   render() {
     const searchInput = document.createElement("input");
-    searchInput.className = "search-box";
+    searchInput.className = "search-section__box";
     searchInput.type = "search";
     searchInput.placeholder = "검색어를 입력하세요.";
 

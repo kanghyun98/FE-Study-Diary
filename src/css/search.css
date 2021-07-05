@@ -5,10 +5,9 @@
   padding: 20px 10px;
 }
 
-.search-section input:first-child {
-  margin-right: 5px;
+.search-section input {
   width: 40%;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .loading {

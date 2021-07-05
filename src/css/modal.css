@@ -30,12 +30,11 @@
 }
 
 .modal-wrapper__contents h2 {
-  font-size: 40px;
+  font-size: 35px;
   margin: 20px 0px;
 }
 
 .arr {
-  margin: 0 15px;
   margin-bottom: 50px;
   font-size: 18px;
 }
@@ -46,22 +45,25 @@
   margin-bottom: 30px;
 }
 
-.myLink span {
+.myLink h3 {
   font-size: 18px;
   font-weight: 600;
   opacity: 0.6;
 }
 
 .myLink a {
-  margin-top: 8px;
-  margin-left: 15px;
   font-size: 17px;
 }
 
-.refLink span {
+.refLink h3 {
   font-size: 18px;
   font-weight: 600;
   opacity: 0.6;
+}
+
+.refLink ul {
+  list-style: none;
+  padding: 0;
 }
 
 .refLink li {

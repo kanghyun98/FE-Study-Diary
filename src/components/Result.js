@@ -4,7 +4,7 @@ export default class ResultSection {
   constructor({ $target, data }) {
     this.data = data;
 
-    this.divSection = document.createElement("div");
+    this.divSection = document.createElement("section");
     this.divSection.className = "result-section";
 
     $target.appendChild(this.divSection);
@@ -23,11 +23,11 @@ export default class ResultSection {
     const keyData = Object.keys(this.data);
     keyData.map((key) => {
       let monthData = this.data[key];
-      const boxContainer = document.createElement("div");
+      const boxContainer = document.createElement("section");
       boxContainer.className = "result-section__container";
 
       //h3.month
-      const h3Month = document.createElement("h3");
+      const h3Month = document.createElement("h2");
       h3Month.className = "result-section__month";
 
       if (key === "검색 결과") {
@@ -37,7 +37,7 @@ export default class ResultSection {
       }
 
       //boxes
-      const boxList = document.createElement("div");
+      const boxList = document.createElement("section");
       boxList.className = "result-section__boxes";
 
       monthData.map((box) => {
