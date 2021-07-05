@@ -156,15 +156,6 @@ export const studyData = [
     date: "2021/06/30",
     studyList: [
       {
-        subject: "실행 컨텍스트",
-        arr: "실행할 코드에 제공할 환경 정보들을 모아놓은 객체",
-        myLink: "https://www.notion.so/a886127eea944cb6ab2e32bfd474c48f",
-        refLink: [
-          "https://im-designloper.tistory.com/21",
-          "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE",
-        ],
-      },
-      {
         subject: "함수 선언문과 함수 표현식",
         arr: "함수 정의 방법",
         myLink: "https://www.notion.so/ef577d785421444db530090baf039c4a",
@@ -251,7 +242,19 @@ export const studyData = [
         refLink: [""],
       },
       {
-        subject: "Semantic Web",
+        subject: "복습",
+        arr: "비동기 처리, 콜백 함수, Promise, async&await, this",
+        myLink:
+          "https://www.notion.so/FE-Study-0c3c7eb719cc446b8e0a405fe715c253",
+        refLink: [""],
+      },
+    ],
+  },
+  {
+    date: "2021/07/05",
+    studyList: [
+      {
+        subject: "Semantic Web (적용)",
         arr: "Semantic(의미론적) 태그를 사용한 HTML에 대한 개념 정리",
         myLink:
           "https://www.notion.so/Semantic-Web-e3003a4c433c422fbc2395088ade42e9",
@@ -262,11 +265,21 @@ export const studyData = [
         ],
       },
       {
-        subject: "복습",
-        arr: "Semantic Web, 비동기 처리, 콜백 함수, Promise, async&await, this ",
-        myLink:
-          "https://www.notion.so/FE-Study-0c3c7eb719cc446b8e0a405fe715c253",
-        refLink: [""],
+        subject: "ternary Operator (적용)",
+        arr: "삼항연산자를 사용해 if문을 간결하게 표현할 수 있다.",
+        myLink: "",
+        refLink: [
+          "https://www.youtube.com/watch?v=36HrZHzPeuY&feature=youtu.be",
+        ],
+      },
+      {
+        subject: "실행 컨텍스트",
+        arr: "실행할 코드에 제공할 환경 정보들을 모아놓은 객체",
+        myLink: "https://www.notion.so/a886127eea944cb6ab2e32bfd474c48f",
+        refLink: [
+          "https://im-designloper.tistory.com/21",
+          "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE",
+        ],
       },
     ],
   },
