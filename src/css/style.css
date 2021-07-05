@@ -4,11 +4,12 @@
 
 .hidden {
   display: none;
+  transition: all 1s;
 }
 
 body {
   background-color: whitesmoke;
-  font-family: proxima-soft;
+  font-family: "Roboto", sans-serif;
 }
 
 .home-header {
@@ -19,5 +20,5 @@ body {
 }
 
 .home-header__title {
-  font-size: 35px;
+  font-size: 45px;
 }
