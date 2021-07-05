@@ -5,7 +5,6 @@ export default class Box {
     this.data = data; //일별 data
     this.box = document.createElement("div");
     this.box.className = "result-section__box";
-    this.box.dataset.id = data.id;
 
     $target.appendChild(this.box);
 

@@ -4,7 +4,7 @@ import Loading from "./components/Loading.js";
 
 import { studyData } from "./Data.js";
 import { groupBy } from "./util/groupBy.js";
-import { saveData, callData } from "./util/sessionStorage.js";
+import { callData } from "./util/sessionStorage.js";
 import { searchData } from "./util/searchData.js";
 
 export default class App {
