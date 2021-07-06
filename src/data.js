@@ -274,12 +274,41 @@ export const studyData = [
       },
       {
         subject: "실행 컨텍스트",
-        arr: "실행할 코드에 제공할 환경 정보들을 모아놓은 객체",
+        arr: "실행할 코드에 제공할 환경 정보들을 모아놓은 객체. '코어 자바스크립트' 정리",
         myLink: "https://www.notion.so/a886127eea944cb6ab2e32bfd474c48f",
         refLink: [
           "https://im-designloper.tistory.com/21",
           "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE",
         ],
+      },
+    ],
+  },
+  {
+    date: "2021/07/06",
+    studyList: [
+      {
+        subject: "Closure",
+        arr: "어떤 함수에서 선언한 변수를 참조하는 내부함수를 외부로 전달할 경우, 함수의 실행 컨텍스트가 종료된 후에도 해당 변수가 사라지지 않는 현상",
+        myLink:
+          "https://www.notion.so/Closure-ba932a12d4d94310938154463ef28cf6",
+        refLink: [
+          "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE",
+        ],
+      },
+      {
+        subject: "Prototype",
+        arr: "인스턴스에는 __proto__ 라는, Constructor의 prototype 프로퍼티를 참조하는 프로퍼티가 자동으로 부여됨.",
+        myLink:
+          "https://www.notion.so/Prototype-d8c713cac30748d09446ae59d2fe27f8",
+        refLink: [
+          "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE",
+        ],
+      },
+      {
+        subject: "API",
+        arr: "Web APIs, API에 대한 개념 이해",
+        myLink: "https://www.notion.so/API-f5cc291412794f149931c277ce932287",
+        refLink: ["https://www.youtube.com/watch?v=ogT267HvNuQ"],
       },
     ],
   },
