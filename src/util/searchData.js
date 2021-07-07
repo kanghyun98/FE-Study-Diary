@@ -1,9 +1,11 @@
 import { saveData } from "./sessionStorage.js";
 
 //검색 keyword와 data를 받아 검색 후, data에 검색 결과 obj를 추가한 데이터 return
+// 시간 지연
 export function searchData(keyword, data) {
   return new Promise((resolve) => {
     setTimeout(() => {
+      // 검색 키워드 입력 여부
       const searchArr = new Array();
 
       if (keyword.length === 0) {

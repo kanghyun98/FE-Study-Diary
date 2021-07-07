@@ -2,7 +2,7 @@ import ResultSection from "./components/Result.js";
 import SearchSection from "./components/Search.js";
 import Loading from "./components/Loading.js";
 
-import { studyData } from "./Data.js";
+import { studyData } from "./util/api.js";
 import { groupBy } from "./util/groupBy.js";
 import { callData } from "./util/sessionStorage.js";
 import { searchData } from "./util/searchData.js";
