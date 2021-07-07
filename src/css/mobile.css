@@ -1,0 +1,16 @@
+@media screen and (max-width: 645px) {
+  .search-section input {
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .home-header__title {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .home-header__writer {
+    font-size: 15px;
+  }
+}

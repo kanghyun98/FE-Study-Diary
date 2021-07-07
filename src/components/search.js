@@ -14,7 +14,6 @@ export default class SearchSection {
     const searchInput = document.createElement("input");
     searchInput.className = "search-section__box";
     searchInput.type = "search";
-    searchInput.placeholder = "검색어를 입력하세요.";
 
     searchInput.addEventListener("search", () => {
       this.onSearch(searchInput.value); //검색값으로 찾기

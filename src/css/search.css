@@ -6,8 +6,10 @@
 }
 
 .search-section input {
-  width: 40%;
+  width: 500px;
+  height: 40px;
   font-size: 20px;
+  padding: 13px 15px;
 }
 
 .loading {

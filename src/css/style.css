@@ -1,10 +1,10 @@
 @import "result.css";
 @import "search.css";
 @import "modal.css";
+@import "mobile.css";
 
 .hidden {
   display: none;
-  transition: all 1s;
 }
 
 body {
@@ -14,11 +14,12 @@ body {
 
 .home-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 10%;
 }
 
 .home-header__title {
-  font-size: 45px;
+  font-size: 40px;
 }

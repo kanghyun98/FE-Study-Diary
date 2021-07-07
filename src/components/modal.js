@@ -46,6 +46,7 @@ export default class Modal {
     this.data.refLink.forEach((element) => {
       const liLinks = document.createElement("li");
       const aLinks = document.createElement("a");
+
       aLinks.innerText = element.length < 50 ? element : "Ref Link is here!";
       aLinks.setAttribute("href", element);
 
