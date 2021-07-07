@@ -314,27 +314,36 @@
         ]
         },
         {
-        "date": "2021/07/07",
-        "studyList": [
-            {
-                "subject": "media query",
-                "arr": "media query를 이용해 mobile 화면의 반응형 페이지 구현",
-                "myLink": "",
-                "refLink": [
-                    "https://developer.mozilla.org/ko/docs/Web/CSS/Media_Queries/Using_media_queries"
-                ]
-            },
-            {
-                "subject": "fetch API (적용)",
-                "arr": "Ajax에 자주 사용되는 Fetch API 이용",
-                "myLink": "",
-                "refLink": [
-                    "https://velog.io/@eunjin/JavaScript-fetch-%ED%95%A8%EC%88%98-%EC%93%B0%EB%8A%94-%EB%B2%95-fetch-%ED%95%A8%EC%88%98%EB%A1%9C-HTTP-%EC%9A%94%EC%B2%AD%ED%95%98%EB%8A%94-%EB%B2%95",
-                    "https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Using_Fetch",
-                    "https://academy.dream-coding.com/courses/take/mini-shopping/lessons/14774865-javascript-display-items"
-                ]
-            }
-        ]
+            "date": "2021/07/07",
+            "studyList": [
+                {
+                    "subject": "media query",
+                    "arr": "media query를 이용해 mobile 화면의 반응형 페이지 구현",
+                    "myLink": "",
+                    "refLink": [
+                        "https://developer.mozilla.org/ko/docs/Web/CSS/Media_Queries/Using_media_queries"
+                    ]
+                },
+                {
+                    "subject": "fetch API (적용)",
+                    "arr": "Request나 Response와 같은 HTTP의 파이프라인을 구성하는 요소를 조작, 그리고 fetch() 메서드를 이용해 비동기 네트워크 통신을 쉽게 기술할 수 있다.",
+                    "myLink": "https://www.notion.so/Fetch-API-285ae6bb549245a58ca4933780311d10",
+                    "refLink": [
+                        "https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Using_Fetch",
+                        "https://developer.mozilla.org/ko/docs/Web/API/Fetch_API",
+                        "https://velog.io/@eunjin/JavaScript-fetch-함수-쓰는-법-fetch-함수로-HTTP-요청하는-법",
+                        "https://velog.io/@prayme/Fetch-API"
+                    ]
+                },
+                {
+                    "subject": "DOM 이벤트",
+                    "arr": "Bubble/Capture에 대해 이해, DOM 이벤트 객체를 활용",
+                    "myLink": "https://www.notion.so/DOM-ead5bcb881aa4f3e85496ee94c22126f",
+                    "refLink": [
+                        "https://www.youtube.com/watch?v=7gKtNC3b_S8&t=1s"
+                    ]
+                }
+            ]
         }
   ]
 }
