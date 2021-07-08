@@ -226,7 +226,7 @@
                 "refLink": [""]
             },
             {
-                "subject": "Study-Dairy Prject 내용 정리",
+                "subject": "Study-Dairy Project 내용 정리",
                 "arr": "공부 및 경험했던 것들을 다시 돌아볼 수 있도록 내용 별 정리",
                 "myLink": "https://github.com/20170781/FE-Study-Diary",
                 "refLink": ["https://github.com/woohyeonjo/ilovecat-javascript"]
@@ -237,7 +237,7 @@
         "date": "2021/07/04",
         "studyList": [
             {
-                "subject": "Study-Dairy Prject 내용 정리 2",
+                "subject": "Study-Dairy Project 내용 정리 2",
                 "arr": "내용 별 정리 마무리와 Git README.md에 정리",
                 "myLink": "https://github.com/20170781/FE-Study-Diary",
                 "refLink": [""]
@@ -344,6 +344,17 @@
                     ]
                 }
             ]
-        }
+        },
+        {
+            "date": "2021/07/08",
+            "studyList": [
+                {
+                    "subject": "HTTP 프로토콜",
+                    "arr": "용어 및 특징, URL 참고",
+                    "myLink": "",
+                    "refLink": ["https://joshua1988.github.io/web-development/http-part1/"]
+                }
+            ]
+            }
   ]
 }
