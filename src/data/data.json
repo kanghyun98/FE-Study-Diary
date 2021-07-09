@@ -353,8 +353,45 @@
                     "arr": "용어 및 특징, URL 참고",
                     "myLink": "",
                     "refLink": ["https://joshua1988.github.io/web-development/http-part1/"]
+                },
+                {
+                    "subject": "Git",
+                    "arr": "GUI -> terminal, git 명령어",
+                    "myLink": "",
+                    "refLink": [
+                        "https://pks2974.medium.com/%EC%9E%90%EC%A3%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B8%B0%EC%B4%88-git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-533b3689db81",
+                        "https://richone.tistory.com/26"
+                    ]
+                },
+                {
+                    "subject": "JSX, Props, State(Life-Cycle)",
+                    "arr": "클론 코딩을 통한 React 학습",
+                    "myLink": "https://www.notion.so/propTypes-f955d78f997d4028b89aae61c549f945",
+                    "refLink": [
+                        "https://nomadcoders.co/react-fundamentals/lobby"
+                    ]
                 }
             ]
-            }
+        },
+        {
+            "date": "2021/07/09",
+            "studyList": [
+                {
+                    "subject": "Fetch(axios), Render, Link, Route",
+                    "arr": "클론 코딩을 통한 React 학습",
+                    "myLink": "",
+                    "refLink": ["https://joshua1988.github.io/web-development/http-part1/"]
+                },
+                {
+                    "subject": "",
+                    "arr": "클론 코딩 구조 정리, 복습, 웹서핑을 통해 이해도 높이기",
+                    "myLink": "https://www.notion.so/Movie-App-71bdbdc8e5e34e189210cddf14627003",
+                    "refLink": [
+                        "https://www.youtube.com/watch?v=muc2ZF0QIO4",
+                        "https://velopert.com/3613"
+                    ]
+                }
+            ]
+        }
   ]
 }
