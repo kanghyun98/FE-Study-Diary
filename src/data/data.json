@@ -392,6 +392,25 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": "2021/07/10",
+            "studyList": [
+                {
+                    "subject": "React 기본 정리",
+                    "arr": "React 기본, 중요 컨셉 정리",
+                    "myLink": "https://www.notion.so/What-is-React-d5a4275effa449e88a0ff26850f56ea1",
+                    "refLink": ["https://reactjs.org/"]
+                },
+                {
+                    "subject": "React관련 툴",
+                    "arr": "Babel, Webpack, ESLint, Jest, PostCSS 개념 이해",
+                    "myLink": "https://www.notion.so/b19bd59eda9c4a3a9242db1860b18131",
+                    "refLink": [
+                        ""
+                    ]
+                }
+            ]
         }
   ]
 }
