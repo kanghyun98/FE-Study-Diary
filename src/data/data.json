@@ -366,7 +366,7 @@
                 {
                     "subject": "JSX, Props, State(Life-Cycle)",
                     "arr": "클론 코딩을 통한 React 학습",
-                    "myLink": "https://www.notion.so/propTypes-f955d78f997d4028b89aae61c549f945",
+                    "myLink": "",
                     "refLink": [
                         "https://nomadcoders.co/react-fundamentals/lobby"
                     ]
@@ -398,16 +398,106 @@
             "studyList": [
                 {
                     "subject": "React 기본 정리",
-                    "arr": "React 기본, 중요 컨셉 정리",
+                    "arr": "React 기본, 중요 컨셉 정리(드림 코딩)",
                     "myLink": "https://www.notion.so/What-is-React-d5a4275effa449e88a0ff26850f56ea1",
-                    "refLink": ["https://reactjs.org/"]
+                    "refLink": [
+                        "https://reactjs.org/",
+                        "https://academy.dream-coding.com/courses/react-basic"
+                    ]
                 },
                 {
                     "subject": "React관련 툴",
-                    "arr": "Babel, Webpack, ESLint, Jest, PostCSS 개념 이해",
+                    "arr": "Babel, Webpack, ESLint, Jest, PostCSS 개념 이해(드림 코딩 1~3)",
                     "myLink": "https://www.notion.so/b19bd59eda9c4a3a9242db1860b18131",
                     "refLink": [
-                        ""
+                        "https://academy.dream-coding.com/courses/react-basic"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2021/07/11",
+            "studyList": [
+                {
+                    "subject": "State & Props 정리",
+                    "arr": "React 기본, 중요 컨셉 정리(드림 코딩 4)",
+                    "myLink": "https://www.notion.so/State-Props-8d52ca6cb2ed4b98b0c15245f6791f5e",
+                    "refLink": [
+                        "https://reactjs.org/docs/state-and-lifecycle.html",
+                        "https://reactjs.org/docs/components-and-props.html",
+                        "https://academy.dream-coding.com/courses/react-basic"
+                    ]
+                },
+                {
+                    "subject": "State 동적 관리",
+                    "arr": "React에서 state와 props를 활용해 UI 값의 변동 구현(드림 코딩 4)",
+                    "myLink": "",
+                    "refLink": [
+                        "https://academy.dream-coding.com/courses/react-basic"
+                    ]
+                },
+                {
+                    "subject": "components 구현",
+                    "arr": "class, function을 이용해 여러 기능들을 구현 연습(드림 코딩 4)",
+                    "myLink": "",
+                    "refLink": [
+                        "https://academy.dream-coding.com/courses/react-basic"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2021/07/12",
+            "studyList": [
+                {
+                    "subject": "YouTube Project 1",
+                    "arr": "YouTube API를 활용해 YouTube의 일부 기능 구현(API Get, List up) <스스로>",
+                    "myLink": "https://www.notion.so/Youtube-Clone-Project-178d45d54c8b4ba9bfdc2bc46bc89faf",
+                    "refLink": [
+                        "https://www.youtube.com/",
+                        "https://developers.google.com/youtube/player_parameters?hl=ko",
+                        "https://developers.google.com/youtube/v3/getting-started?hl=ko"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2021/07/13",
+            "studyList": [
+                {
+                    "subject": "YouTube Project 2",
+                    "arr": "YouTube API를 활용해 YouTube의 일부 기능 구현(Components) <스스로>",
+                    "myLink": "https://www.notion.so/Youtube-Clone-Project-178d45d54c8b4ba9bfdc2bc46bc89faf",
+                    "refLink": [
+                        "https://www.youtube.com/",
+                        "https://developers.google.com/youtube/player_parameters?hl=ko",
+                        "https://developers.google.com/youtube/v3/getting-started?hl=ko"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2021/07/14",
+            "studyList": [
+                {
+                    "subject": "YouTube Project 3",
+                    "arr": "YouTube API를 활용해 YouTube의 일부 기능 구현 <드림 코딩>",
+                    "myLink": "https://www.notion.so/Youtube-Clone-Project-178d45d54c8b4ba9bfdc2bc46bc89faf",
+                    "refLink": [
+                        "https://academy.dream-coding.com/courses/react-basico"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2021/07/15",
+            "studyList": [
+                {
+                    "subject": "YouTube Project 4",
+                    "arr": "YouTube API를 활용해 YouTube의 일부 기능 구현 <Refactoring 스스로>",
+                    "myLink": "https://www.notion.so/Youtube-Clone-Project-178d45d54c8b4ba9bfdc2bc46bc89faf",
+                    "refLink": [
+                        "https://academy.dream-coding.com/courses/react-basico"
                     ]
                 }
             ]
