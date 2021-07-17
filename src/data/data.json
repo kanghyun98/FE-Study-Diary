@@ -501,6 +501,29 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": "2021/07/17",
+            "studyList": [
+                {
+                    "subject": "React Hook",
+                    "arr": "React Hook에 대한 이해 및 정리",
+                    "myLink": "https://www.notion.so/React-Hook-deep-dive-64c9ae41216c491091e8e95fdbfccb2f",
+                    "refLink": [
+                        "https://ko.reactjs.org/docs/hooks-intro.html"
+                    ]
+                },
+                {
+                    "subject": "Network",
+                    "arr": "네트워크에 대한 이해",
+                    "myLink": "https://www.notion.so/React-Hook-deep-dive-64c9ae41216c491091e8e95fdbfccb2f",
+                    "refLink": [
+                        "https://radayer.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-CCNA-%EC%9E%90%EB%A3%8C%EB%8F%84-%ED%8F%AC%ED%95%A8",
+                        "https://www.netmanias.com/ko/post/techdocs/5106",
+                        "https://developer.mozilla.org/ko/docs/Web/HTTP/Messages"
+                    ]
+                }
+            ]
         }
   ]
 }
