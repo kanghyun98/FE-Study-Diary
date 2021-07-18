@@ -514,13 +514,36 @@
                     ]
                 },
                 {
-                    "subject": "Network",
-                    "arr": "네트워크에 대한 이해",
-                    "myLink": "https://www.notion.so/React-Hook-deep-dive-64c9ae41216c491091e8e95fdbfccb2f",
+                    "subject": "네트워크와 OSI",
+                    "arr": "네트워크 기본 용어와 Protocol Layer 개념 정리",
+                    "myLink": "https://www.notion.so/9088769b10084881a5e2eb45b7d4db9c",
                     "refLink": [
                         "https://radayer.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-CCNA-%EC%9E%90%EB%A3%8C%EB%8F%84-%ED%8F%AC%ED%95%A8",
                         "https://www.netmanias.com/ko/post/techdocs/5106",
                         "https://developer.mozilla.org/ko/docs/Web/HTTP/Messages"
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2021/07/18",
+            "studyList": [
+                {
+                    "subject": "이더넷, 계층별 장비",
+                    "arr": "이더넷 동작방식, 프레임 구조와 계층별 장비들에 대한 정리",
+                    "myLink": "https://www.notion.so/9088769b10084881a5e2eb45b7d4db9c",
+                    "refLink": [
+                        "https://radayer.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B8%B0%EC%B4%88-%EC%9E%90%EB%A3%8C-CCNA-%EC%9E%90%EB%A3%8C%EB%8F%84-%ED%8F%AC%ED%95%A8",
+                        "https://www.netmanias.com/ko/post/techdocs/5106",
+                        "https://developer.mozilla.org/ko/docs/Web/HTTP/Messages"
+                    ]
+                },
+                {
+                    "subject": "복습",
+                    "arr": "전반적인 복습",
+                    "myLink": "https://www.notion.so/HTML-CSS-JS-Study-0c3c7eb719cc446b8e0a405fe715c253",
+                    "refLink": [
+                        ""
                     ]
                 }
             ]
