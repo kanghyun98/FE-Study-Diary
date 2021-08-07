@@ -1,19 +1,18 @@
 {
     "data" : [
         {
-        "date": "2021/06/26",
-        "studyList": [
-            {
                 "id": "1",
+                "date": "2021/06/26",
                 "subject": "flex-box (적용)",
                 "arr": "flex-box를 이용해 반응형 페이지 구현",
                 "myLink": "https://www.notion.so/30f89e26ff6742ebaa92f2d489183a16",
                 "refLink": [
                     "https://velog.io/@hyeon930/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EC%97%90-%EB%94%B0%EB%A5%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1-%EC%8B%9C%EB%A7%A8%ED%8B%B1-%EC%9B%B9-%EB%B0%98%EC%9D%91%ED%98%95-%ED%8E%98%EC%9D%B4%EC%A7%80"
                 ]
-            },
-            {
+        },
+        {
                 "id": "2",
+                "date": "2021/06/26",
                 "subject": "JSON 파일 구조 (적용)",
                 "arr": "데이터이름:값, 객체{}, 배열[], 추후에 class나 function 활용해 만들기",
                 "myLink": "",
@@ -21,9 +20,10 @@
                     "https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/JSON",
                     "http://tcpschool.com/json/json_basic_structure"
                 ]
-            },
-            {
+        },
+        {
                 "id": "3",
+                "date": "2021/06/26",
                 "subject": "defer/async",
                 "arr": "브라우저 동작 방식 제어",
                 "myLink": "",
@@ -31,23 +31,20 @@
                     "https://ko.javascript.info/script-async-defer",
                     "https://www.youtube.com/watch?v=tJieVCgGzhs&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=2"
                 ]
-            },
-            {
+        },
+        {
                 "id": "4",
+                "date": "2021/06/26",
                 "subject": "라이브러리, 프레임워크, API, ABI",
                 "arr": "맛보기, 추후에 정리 필요",
                 "myLink": "",
                 "refLink": [
                     "https://eine.tistory.com/entry/라이브러리-API-ABI-뜻-비교-정리"
                 ]
-            }
-        ]
         },
         {
-        "date": "2021/06/27",
-        "studyList": [
-            {
                 "id": "5",
+                "date": "2021/06/27",
                 "subject": "let / const",
                 "arr": "Variable(Mutable): let  / Constant(Immutable): const",
                 "myLink":
@@ -55,18 +52,20 @@
                 "refLink": [
                     "https://www.youtube.com/watch?v=_DLhUBWsRtw&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=6"
                 ]
-            },
-            {
+        },
+        {
                 "id": "6",
+                "date": "2021/06/27",
                 "subject": "Class",
                 "arr": "prototype을 활용하여 다른 언어들의 class와 유사한 기능 생성",
                 "myLink": "https://www.notion.so/Class-bb4a0bf7d80340f79fcd91cff28f10f2",
                 "refLink": [
                     "https://www.youtube.com/watch?v=_DLhUBWsRtw&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=8"
                 ]
-            },
-            {
+        },
+        {
                 "id": "7",
+                "date": "2021/06/27",
                 "subject": "비동기 처리",
                 "arr": "script 불러올 때 코드의 실행을 멈추지 않는 것",
                 "myLink": "https://www.notion.so/a0f0183c3d434182b103046cb2baaef3",
@@ -74,9 +73,10 @@
                     "https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/",
                     "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE"
                 ]
-            },
-            {
+        },
+        {
                 "id": "8",
+                "date": "2021/06/27",
                 "subject": "콜백 함수",
                 "arr": "다른 코드의 인자로 넘겨주는 함수",
                 "myLink": "https://www.notion.so/13c20635b4be4f0a9193c7218c5c6040",
@@ -85,9 +85,10 @@
                     "https://www.youtube.com/watch?v=s1vpVCrT8f4&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=11",
                     "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE"
                 ]
-            },
-            {
+        },
+        {
                 "id": "9",
+                "date": "2021/06/27",
                 "subject": "Promise",
                 "arr": "콜백 지옥 해결법",
                 "myLink":
@@ -97,9 +98,10 @@
                     "https://www.youtube.com/watch?v=JB_yU6Oe2eE&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=12",
                     "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE"
                 ]
-            },
-            {
+        },
+        {
                 "id": "10",
+                "date": "2021/06/27",
                 "subject": "async & await",
                 "arr": "콜백 함수와 프로미스의 단점 보완, 개발자가 읽기 좋은 코드 작성 가능하게 해줌",
                 "myLink":
@@ -108,14 +110,10 @@
                     "https://joshua1988.github.io/web-development/javascript/js-async-await/",
                     "https://www.youtube.com/watch?v=aoQSOZfz3vQ&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=13"
                 ]
-            }
-        ]
         },
         {
-        "date": "2021/06/28",
-        "studyList": [
-            {
                 "id": "11",
+                "date": "2021/06/28",
                 "subject": "Web Storage API (적용)",
                 "arr": "임시 저장 장소",
                 "myLink":
@@ -124,9 +122,10 @@
                     "https://velog.io/@hyeon930/%EC%83%88%EB%A1%9C%EA%B3%A0%EC%B9%A8-%ED%9B%84%EC%97%90%EB%8F%84-%EA%B2%B0%EA%B3%BC-%ED%99%94%EB%A9%B4-%EC%9C%A0%EC%A7%80%ED%95%98%EA%B8%B0-Web-Storage-API",
                     "https://developer.mozilla.org/ko/docs/Web/API/Web_Storage_API"
                 ]
-            },
-            {
+        },
+        {
                 "id": "12",
+                "date": "2021/06/28",
                 "subject": "Search (적용)",
                 "arr": "검색 로직 구현, 새로고침 후에도 화면 유지",
                 "myLink": "",
@@ -134,30 +133,28 @@
                     "https://velog.io/@hyeon930/%EC%9C%A0%EC%A0%80%EC%9D%98-%EC%9E%85%EB%A0%A5%EC%97%90-%EB%B0%98%EC%9D%91%ED%95%98%EA%B8%B0-%EB%A1%9C%EB%94%A9-%ED%99%94%EB%A9%B4%EA%B3%BC-%EA%B2%B0%EA%B3%BC-%EC%97%86%EC%9D%8C-Event-loop-Class",
                     "https://velog.io/@hyeon930/%EC%83%88%EB%A1%9C%EA%B3%A0%EC%B9%A8-%ED%9B%84%EC%97%90%EB%8F%84-%EA%B2%B0%EA%B3%BC-%ED%99%94%EB%A9%B4-%EC%9C%A0%EC%A7%80%ED%95%98%EA%B8%B0-Web-Storage-API"
                 ]
-            }
-        ]
         },
         {
-        "date": "2021/06/29",
-        "studyList": [
-            {
                 "id": "13",
+                "date": "2021/06/29",
                 "subject": "Search Loading page (적용)",
                 "arr": "검색 로딩 화면 구현",
                 "myLink": "",
                 "refLink": [
                     "https://velog.io/@hyeon930/%EC%9C%A0%EC%A0%80%EC%9D%98-%EC%9E%85%EB%A0%A5%EC%97%90-%EB%B0%98%EC%9D%91%ED%95%98%EA%B8%B0-%EB%A1%9C%EB%94%A9-%ED%99%94%EB%A9%B4%EA%B3%BC-%EA%B2%B0%EA%B3%BC-%EC%97%86%EC%9D%8C-Event-loop-Class"
                 ]
-            },
-            {
+        },
+        {
                 "id": "14",
+                "date": "2021/06/29",
                 "subject": "bubbling / capturing ",
                 "arr": "하단 요소의 이벤트 발생 시, 최상단 부모 요소까지의 핸들러 동작 ",
                 "myLink": "",
                 "refLink": ["https://ko.javascript.info/bubbling-and-capturing"]
-            },
-            {
+        },
+        {
                 "id": "15",
+                "date": "2021/06/29",
                 "subject": "Modal (적용)",
                 "arr": "클릭 시 모달 화면 구축, 외부화면 클릭 시 종료",
                 "myLink": "",
@@ -165,23 +162,20 @@
                     "https://1ilsang.dev/2020-01-07/devlog/make-modal",
                     "https://velog.io/@hyeon930/Modal-%EB%A7%8C%EB%93%A4%EA%B8%B0-Event-propagation"
                 ]
-            }
-        ]
         },
         {
-        "date": "2021/06/30",
-        "studyList": [
-            {
                 "id": "16",
+                "date": "2021/06/30",
                 "subject": "함수 선언문과 함수 표현식",
                 "arr": "함수 정의 방법",
                 "myLink": "https://www.notion.so/ef577d785421444db530090baf039c4a",
                 "refLink": [
                     "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE"
                 ]
-            },
-            {
+        },
+        {
                 "id": "17",
+                "date": "2021/06/30",
                 "subject": "this",
                 "arr": "어떤 방식으로 함수를 호출하느냐에 따라 값이 달라짐",
                 "myLink": "https://www.notion.so/this-96374298462846ee9ec20950294b85a7",
@@ -189,9 +183,10 @@
                     "https://https://im-designloper.tistory.com/23?category=1147115.tistory.com/66",
                     "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE"
                 ]
-            },
-            {
+        },
+        {
                 "id": "18",
+                "date": "2021/06/30",
                 "subject": "OOP 구현",
                 "arr": "Refactoring: Box.js",
                 "myLink":
@@ -200,14 +195,10 @@
                     "https://parksb.github.io/article/1.html",
                     "https://github.com/woohyeonjo/ilovecat-javascript"
                 ]
-            }
-        ]
         },
         {
-        "date": "2021/07/01",
-        "studyList": [
-            {
                 "id": "19",
+                "date": "2021/07/01",
                 "subject": "OOP 구현2",
                 "arr": "Refactoring: Modal.js, Result.js",
                 "myLink":
@@ -216,14 +207,10 @@
                     "https://parksb.github.io/article/1.html",
                     "https://github.com/woohyeonjo/ilovecat-javascript"
                 ]
-            }
-        ]
         },
         {
-        "date": "2021/07/02",
-        "studyList": [
-            {
                 "id": "20",
+                "date": "2021/07/",
                 "subject": "OOP 구현3",
                 "arr": "Refactoring: Loading.js, Search.js, searchData.js, App.js",
                 "myLink":
@@ -232,54 +219,44 @@
                     "https://parksb.github.io/article/1.html",
                     "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce"
                 ]
-            }
-        ]
         },
         {
-        "date": "2021/07/03",
-        "studyList": [
-            {
                 "id": "21",
+                "date": "2021/07/03",
                 "subject": "OOP 구현4",
                 "arr": "sessionStorage.js 및 검색 관련 버그 개선",
                 "myLink":
                     "https://www.notion.so/FE-Study-Diary-Project-87a48dac152b49f49b8435a8a168b20d",
                 "refLink": [""]
-            },
-            {
+        },
+        {
                 "id": "22",
+                "date": "2021/07/03",
                 "subject": "Study-Dairy Project 내용 정리",
                 "arr": "공부 및 경험했던 것들을 다시 돌아볼 수 있도록 내용 별 정리",
                 "myLink": "https://github.com/20170781/FE-Study-Diary",
                 "refLink": ["https://github.com/woohyeonjo/ilovecat-javascript"]
-            }
-        ]
         },
         {
-        "date": "2021/07/04",
-        "studyList": [
-            {
                 "id": "23",
+                "date": "2021/07/04",
                 "subject": "Study-Dairy Project 내용 정리 2",
                 "arr": "내용 별 정리 마무리와 Git README.md에 정리",
                 "myLink": "https://github.com/20170781/FE-Study-Diary",
                 "refLink": [""]
-            },
-            {
+        },
+        {
                 "id": "24",
+                "date": "2021/07/04",
                 "subject": "복습",
                 "arr": "비동기 처리, 콜백 함수, Promise, async&await, this",
                 "myLink":
                     "https://www.notion.so/FE-Study-0c3c7eb719cc446b8e0a405fe715c253",
                 "refLink": [""]
-            }
-        ]
         },
         {
-        "date": "2021/07/05",
-        "studyList": [
-            {
                 "id": "25",
+                "date": "2021/07/05",
                 "subject": "Semantic Web (적용)",
                 "arr": "Semantic(의미론적) 태그를 사용한 HTML에 대한 개념 정리",
                 "myLink":
@@ -289,18 +266,20 @@
                     "https://soeunlee.medium.com/%EC%8B%9C%EB%A7%A8%ED%8B%B1%ED%95%98%EA%B2%8C-html%EC%9D%84-%EC%A7%A0%EB%8B%A4%EB%8A%94-%EA%B2%83-90612ffc988e",
                     "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
                 ]
-            },
-            {
+        },
+        {
                 "id": "26",
+                "date": "2021/07/05",
                 "subject": "ternary Operator (적용)",
                 "arr": "삼항연산자를 사용해 if문을 간결하게 표현할 수 있다.",
                 "myLink": "",
                 "refLink": [
                     "https://www.youtube.com/watch?v=36HrZHzPeuY&feature=youtu.be"
                 ]
-            },
-            {
-                "id": "272",
+        },
+        {
+                "id": "27",
+                "date": "2021/07/05",
                 "subject": "실행 컨텍스트",
                 "arr": "실행할 코드에 제공할 환경 정보들을 모아놓은 객체. '코어 자바스크립트' 정리",
                 "myLink": "https://www.notion.so/a886127eea944cb6ab2e32bfd474c48f",
@@ -308,14 +287,10 @@
                     "https://im-designloper.tistory.com/21",
                     "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE"
                 ]
-            }
-        ]
         },
         {
-        "date": "2021/07/06",
-        "studyList": [
-            {
                 "id": "28",
+                "date": "2021/07/06",
                 "subject": "Closure",
                 "arr": "어떤 함수에서 선언한 변수를 참조하는 내부함수를 외부로 전달할 경우, 함수의 실행 컨텍스트가 종료된 후에도 해당 변수가 사라지지 않는 현상",
                 "myLink":
@@ -323,9 +298,10 @@
                 "refLink": [
                     "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE"
                 ]
-            },
-            {
+        },
+        {
                 "id": "29",
+                "date": "2021/07/06",
                 "subject": "Prototype",
                 "arr": "인스턴스에는 __proto__ 라는, Constructor의 prototype 프로퍼티를 참조하는 프로퍼티가 자동으로 부여됨.",
                 "myLink":
@@ -333,183 +309,170 @@
                 "refLink": [
                     "http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=316439749&gclid=CjwKCAjwrPCGBhALEiwAUl9X03UWvMKCa3wT3RJ_3kQKn2ocDnJPbHL2Oysl5litbzwHa-Ny0WeAnxoCX-8QAvD_BwE"
                 ]
-            },
-            {
+        },
+        {
                 "id": "30",
+                "date": "2021/07/06",
                 "subject": "API",
                 "arr": "Web APIs, API에 대한 개념 이해",
                 "myLink": "https://www.notion.so/API-f5cc291412794f149931c277ce932287",
-                "refLink": ["https://www.youtube.com/watch?v=ogT267HvNuQ"]
-            }
-        ]
+                "refLink": [
+                    "https://www.youtube.com/watch?v=ogT267HvNuQ"
+                ]
         },
         {
-            "date": "2021/07/07",
-            "studyList": [
-                {
-                    "id": "31",
-                    "subject": "media query",
-                    "arr": "media query를 이용해 mobile 화면의 반응형 페이지 구현",
-                    "myLink": "",
-                    "refLink": [
-                        "https://developer.mozilla.org/ko/docs/Web/CSS/Media_Queries/Using_media_queries"
-                    ]
-                },
-                {
-                    "id": "32",
-                    "subject": "fetch API (적용)",
-                    "arr": "Request나 Response와 같은 HTTP의 파이프라인을 구성하는 요소를 조작, 그리고 fetch() 메서드를 이용해 비동기 네트워크 통신을 쉽게 기술할 수 있다.",
-                    "myLink": "https://www.notion.so/Fetch-API-285ae6bb549245a58ca4933780311d10",
-                    "refLink": [
+                "id": "31",
+                "date": "2021/07/07",
+                "subject": "media query",
+                "arr": "media query를 이용해 mobile 화면의 반응형 페이지 구현",
+                "myLink": "",
+                "refLink": [
+                    "https://developer.mozilla.org/ko/docs/Web/CSS/Media_Queries/Using_media_queries"
+                ]
+        },
+        {
+                "id": "32",
+                "date": "2021/07/07",
+                "subject": "fetch API (적용)",
+                "arr": "Request나 Response와 같은 HTTP의 파이프라인을 구성하는 요소를 조작, 그리고 fetch() 메서드를 이용해 비동기 네트워크 통신을 쉽게 기술할 수 있다.",
+                "myLink": "https://www.notion.so/Fetch-API-285ae6bb549245a58ca4933780311d10",                    
+                "refLink": [
                         "https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Using_Fetch",
                         "https://developer.mozilla.org/ko/docs/Web/API/Fetch_API",
                         "https://velog.io/@eunjin/JavaScript-fetch-함수-쓰는-법-fetch-함수로-HTTP-요청하는-법",
                         "https://velog.io/@prayme/Fetch-API"
-                    ]
-                },
-                {
-                    "id": "33",
-                    "subject": "DOM 이벤트",
-                    "arr": "Bubble/Capture에 대해 이해, DOM 이벤트 객체를 활용",
-                    "myLink": "https://www.notion.so/DOM-ead5bcb881aa4f3e85496ee94c22126f",
-                    "refLink": [
-                        "https://www.youtube.com/watch?v=7gKtNC3b_S8&t=1s"
-                    ]
-                }
-            ]
+                ]
         },
         {
-            "date": "2021/07/08",
-            "studyList": [
-                {
-                    "id": "34",
-                    "subject": "HTTP 프로토콜",
-                    "arr": "용어 및 특징, URL 참고",
-                    "myLink": "",
-                    "refLink": ["https://joshua1988.github.io/web-development/http-part1/"]
-                },
-                {
-                    "id": "35",
-                    "subject": "Git",
-                    "arr": "GUI -> terminal, git 명령어",
-                    "myLink": "",
-                    "refLink": [
-                        "https://pks2974.medium.com/%EC%9E%90%EC%A3%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B8%B0%EC%B4%88-git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-533b3689db81",
-                        "https://richone.tistory.com/26"
-                    ]
-                },
-                {
-                    "id": "36",
-                    "subject": "JSX, Props, State(Life-Cycle)",
-                    "arr": "클론 코딩을 통한 React 학습",
-                    "myLink": "",
-                    "refLink": [
-                        "https://nomadcoders.co/react-fundamentals/lobby"
-                    ]
-                }
-            ]
+                "id": "33",
+                "date": "2021/07/07",
+                "subject": "DOM 이벤트",
+                "arr": "Bubble/Capture에 대해 이해, DOM 이벤트 객체를 활용",
+                "myLink": "https://www.notion.so/DOM-ead5bcb881aa4f3e85496ee94c22126f",
+                "refLink": [
+                    "https://www.youtube.com/watch?v=7gKtNC3b_S8&t=1s"
+                ]
         },
         {
-            "date": "2021/07/09",
-            "studyList": [
-                {
-                    "id": "37",
-                    "subject": "Fetch(axios), Render, Link, Route",
-                    "arr": "클론 코딩을 통한 React 학습",
-                    "myLink": "",
-                    "refLink": ["https://joshua1988.github.io/web-development/http-part1/"]
-                },
-                {
-                    "id": "38",
-                    "subject": "클론 코딩 복습",
-                    "arr": "클론 코딩 구조 정리, 복습, 웹서핑을 통해 이해도 높이기",
-                    "myLink": "https://www.notion.so/Movie-App-71bdbdc8e5e34e189210cddf14627003",
-                    "refLink": [
-                        "https://www.youtube.com/watch?v=muc2ZF0QIO4",
-                        "https://velopert.com/3613"
-                    ]
-                }
-            ]
+                "id": "34",
+                "date": "2021/07/08",
+                "subject": "HTTP 프로토콜",
+                "arr": "용어 및 특징, URL 참고",
+                "myLink": "",                    
+                "refLink": [
+                    "https://joshua1988.github.io/web-development/http-part1/"
+                ]
         },
         {
-            "date": "2021/07/10",
-            "studyList": [
-                {
-                    "id": "39",
-                    "subject": "React 기본 정리",
-                    "arr": "React 기본, 중요 컨셉 정리(드림 코딩)",
-                    "myLink": "https://www.notion.so/What-is-React-d5a4275effa449e88a0ff26850f56ea1",
-                    "refLink": [
-                        "https://reactjs.org/",
-                        "https://academy.dream-coding.com/courses/react-basic"
-                    ]
-                },
-                {
-                    "id": "40",
-                    "subject": "React관련 툴",
-                    "arr": "Babel, Webpack, ESLint, Jest, PostCSS 개념 이해(드림 코딩 1~3)",
-                    "myLink": "https://www.notion.so/b19bd59eda9c4a3a9242db1860b18131",
-                    "refLink": [
-                        "https://academy.dream-coding.com/courses/react-basic"
-                    ]
-                }
-            ]
+                "id": "35",
+                "date": "2021/07/08",
+                "subject": "Git",
+                "arr": "GUI -> terminal, git 명령어",
+                "myLink": "",
+                "refLink": [
+                    "https://pks2974.medium.com/%EC%9E%90%EC%A3%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B8%B0%EC%B4%88-git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-533b3689db81",
+                    "https://richone.tistory.com/26"
+                ]
         },
         {
-            "date": "2021/07/11",
-            "studyList": [
-                {
-                    "id": "41",
-                    "subject": "State & Props 정리",
-                    "arr": "React 기본, 중요 컨셉 정리(드림 코딩 4)",
-                    "myLink": "https://www.notion.so/State-Props-8d52ca6cb2ed4b98b0c15245f6791f5e",
-                    "refLink": [
-                        "https://reactjs.org/docs/state-and-lifecycle.html",
-                        "https://reactjs.org/docs/components-and-props.html",
-                        "https://academy.dream-coding.com/courses/react-basic"
-                    ]
-                },
-                {
-                    "id": "42",
-                    "subject": "State 동적 관리",
-                    "arr": "React에서 state와 props를 활용해 UI 값의 변동 구현(드림 코딩 4)",
-                    "myLink": "",
-                    "refLink": [
-                        "https://academy.dream-coding.com/courses/react-basic"
-                    ]
-                },
-                {
+                "id": "36",
+                "date": "2021/07/08",
+                "subject": "JSX, Props, State(Life-Cycle)",
+                "arr": "클론 코딩을 통한 React 학습",
+                "myLink": "",
+                "refLink": [
+                    "https://nomadcoders.co/react-fundamentals/lobby"
+                ]
+        },
+        {
+                "id": "37",
+                "date": "2021/07/09",
+                "subject": "Fetch(axios), Render, Link, Route",
+                "arr": "클론 코딩을 통한 React 학습",
+                "myLink": "",
+                "refLink": [
+                    "https://joshua1988.github.io/web-development/http-part1/"
+                ]
+        },
+        {
+                "id": "38",
+                "date": "2021/07/09",
+                "subject": "클론 코딩 복습",
+                "arr": "클론 코딩 구조 정리, 복습, 웹서핑을 통해 이해도 높이기",
+                "myLink": "https://www.notion.so/Movie-App-71bdbdc8e5e34e189210cddf14627003",
+                "refLink": [
+                    "https://www.youtube.com/watch?v=muc2ZF0QIO4",
+                    "https://velopert.com/3613"
+                ]
+        },
+        {
+                "id": "39",
+                "date": "2021/07/10",
+                "subject": "React 기본 정리",
+                "arr": "React 기본, 중요 컨셉 정리(드림 코딩)",
+                "myLink": "https://www.notion.so/What-is-React-d5a4275effa449e88a0ff26850f56ea1",
+                "refLink": [
+                    "https://reactjs.org/",
+                    "https://academy.dream-coding.com/courses/react-basic"
+                ]
+        },
+        {
+                "id": "40",
+                "date": "2021/07/10",
+                "subject": "React관련 툴",
+                "arr": "Babel, Webpack, ESLint, Jest, PostCSS 개념 이해(드림 코딩 1~3)",
+                "myLink": "https://www.notion.so/b19bd59eda9c4a3a9242db1860b18131",
+                "refLink": [
+                    "https://academy.dream-coding.com/courses/react-basic"
+                ]
+        },
+        {
+                "id": "41",
+                "date": "2021/07/11",
+                "subject": "State & Props 정리",
+                "arr": "React 기본, 중요 컨셉 정리(드림 코딩 4)",
+                "myLink": "https://www.notion.so/State-Props-8d52ca6cb2ed4b98b0c15245f6791f5e",
+                "refLink": [
+                    "https://reactjs.org/docs/state-and-lifecycle.html",
+                    "https://reactjs.org/docs/components-and-props.html",
+                    "https://academy.dream-coding.com/courses/react-basic"
+                ]
+        },
+        {
+                "id": "42",
+                "date": "2021/07/11",
+                "subject": "State 동적 관리",
+                "arr": "React에서 state와 props를 활용해 UI 값의 변동 구현(드림 코딩 4)",
+                "myLink": "",
+                "refLink": [
+                    "https://academy.dream-coding.com/courses/react-basic"
+                ]
+            },
+            {
                     "id": "43",
-                    "subject": "components 구현",
-                    "arr": "class, function을 이용해 여러 기능들을 구현 연습(드림 코딩 4)",
-                    "myLink": "",
-                    "refLink": [
-                        "https://academy.dream-coding.com/courses/react-basic"
-                    ]
-                }
-            ]
+                "date": "2021/07/11",
+                "subject": "components 구현",
+                "arr": "class, function을 이용해 여러 기능들을 구현 연습(드림 코딩 4)",
+                "myLink": "",
+                "refLink": [
+                    "https://academy.dream-coding.com/courses/react-basic"
+                ]
         },
         {
-            "date": "2021/07/12",
-            "studyList": [
-                {
-                    "id": "44",
-                    "subject": "YouTube Project 1",
-                    "arr": "YouTube API를 활용해 YouTube의 일부 기능 구현(API Get, List up) <스스로>",
-                    "myLink": "https://www.notion.so/Youtube-Clone-Project-178d45d54c8b4ba9bfdc2bc46bc89faf",
-                    "refLink": [
-                        "https://www.youtube.com/",
-                        "https://developers.google.com/youtube/player_parameters?hl=ko",
-                        "https://developers.google.com/youtube/v3/getting-started?hl=ko"
-                    ]
-                }
-            ]
-        },
-        {
-            "date": "2021/07/13",
-            "studyList": [
+                "id": "44",
+                "date": "2021/07/12",
+                "subject": "YouTube Project 1",
+                "arr": "YouTube API를 활용해 YouTube의 일부 기능 구현(API Get, List up) <스스로>",
+                "myLink": "https://www.notion.so/Youtube-Clone-Project-178d45d54c8b4ba9bfdc2bc46bc89faf",
+                "refLink": [
+                    "https://www.youtube.com/",
+                    "https://developers.google.com/youtube/player_parameters?hl=ko",
+                    "https://developers.google.com/youtube/v3/getting-started?hl=ko"
+                ]
+                },
                 {
                     "id": "45",
+                    "date": "2021/07/13",
                     "subject": "YouTube Project 2",
                     "arr": "YouTube API를 활용해 YouTube의 일부 기능 구현(Components) <스스로>",
                     "myLink": "https://www.notion.so/Youtube-Clone-Project-178d45d54c8b4ba9bfdc2bc46bc89faf",
@@ -518,42 +481,30 @@
                         "https://developers.google.com/youtube/player_parameters?hl=ko",
                         "https://developers.google.com/youtube/v3/getting-started?hl=ko"
                     ]
-                }
-            ]
-        },
-        {
-            "date": "2021/07/14",
-            "studyList": [
+                },
                 {
                     "id": "46",
+                    "date": "2021/07/14",
                     "subject": "YouTube Project 3",
                     "arr": "YouTube API를 활용해 YouTube의 일부 기능 구현 <드림 코딩>",
                     "myLink": "https://www.notion.so/Youtube-Clone-Project-178d45d54c8b4ba9bfdc2bc46bc89faf",
                     "refLink": [
                         "https://academy.dream-coding.com/courses/react-basico"
                     ]
-                }
-            ]
-        },
-        {
-            "date": "2021/07/15",
-            "studyList": [
+                },
                 {
                     "id": "47",
+                    "date": "2021/07/15",
                     "subject": "YouTube Project 4",
                     "arr": "YouTube API를 활용해 YouTube의 일부 기능 구현 <Refactoring 스스로>",
                     "myLink": "https://www.notion.so/Youtube-Clone-Project-178d45d54c8b4ba9bfdc2bc46bc89faf",
                     "refLink": [
                         "https://academy.dream-coding.com/courses/react-basico"
                     ]
-                }
-            ]
-        },
-        {
-            "date": "2021/07/17",
-            "studyList": [
+                },
                 {
                     "id": "48",
+                    "date": "2021/07/17",
                     "subject": "React Hook",
                     "arr": "React Hook에 대한 이해 및 정리",
                     "myLink": "https://www.notion.so/React-Hook-deep-dive-64c9ae41216c491091e8e95fdbfccb2f",
@@ -563,6 +514,7 @@
                 },
                 {
                     "id": "49",
+                    "date": "2021/07/17",
                     "subject": "네트워크와 OSI",
                     "arr": "네트워크 기본 용어와 Protocol Layer 개념 정리",
                     "myLink": "https://www.notion.so/9088769b10084881a5e2eb45b7d4db9c",
@@ -571,14 +523,10 @@
                         "https://www.netmanias.com/ko/post/techdocs/5106",
                         "https://developer.mozilla.org/ko/docs/Web/HTTP/Messages"
                     ]
-                }
-            ]
-        },
-        {
-            "date": "2021/07/18",
-            "studyList": [
+                },
                 {
                     "id": "50",
+                    "date": "2021/07/18",
                     "subject": "이더넷, 계층별 장비",
                     "arr": "이더넷 동작방식, 프레임 구조와 계층별 장비들에 대한 정리",
                     "myLink": "https://www.notion.so/9088769b10084881a5e2eb45b7d4db9c",
@@ -590,104 +538,77 @@
                 },
                 {
                     "id": "51",
+                    "date": "2021/07/18",
                     "subject": "복습",
                     "arr": "전반적인 복습",
                     "myLink": "https://www.notion.so/HTML-CSS-JS-Study-0c3c7eb719cc446b8e0a405fe715c253",
                     "refLink": [
                         ""
                     ]
-                }
-            ]
-        },
-        {
-            "date": "2021/07/19",
-            "studyList": [
+                },
                 {
                     "id": "52",
+                    "date": "2021/07/19",
                     "subject": "Card-Maker Project 1",
                     "arr": "project 구성 및 Firebase 기본 이해",
                     "myLink": "https://www.notion.so/Firebase-Authentication-3241cf47dc354fcc85f0d2524f6dd3f6",
                     "refLink": [
                         "https://firebase.google.com/docs/auth/web/google-signin?authuser=0"
                     ]
-                }
-            ]
-        },
-        {
-            "date": "2021/07/20",
-            "studyList": [
+                },
                 {
                     "id": "53",
+                    "date": "2021/07/20",
                     "subject": "Card-Maker Project 2",
                     "arr": "Firebase를 이용한 로그인 화면 구현 및 정리",
                     "myLink": "https://www.notion.so/Firebase-Authentication-3241cf47dc354fcc85f0d2524f6dd3f6",
                     "refLink": [
                         "https://firebase.google.com/docs/auth/web/google-signin?authuser=0"
                     ]
-                }
-            ]
-        },
-        {
-            "date": "2021/07/21",
-            "studyList": [
+                },
                 {
                     "id": "54",
+                    "date": "2021/07/21",
                     "subject": "Card-Maker Project 3",
                     "arr": "입력에 대한 실시간 반영, Card 삭제 및 추가 버튼 구현, Realtime Database 적용 ",
                     "myLink": "https://www.notion.so/card-maker-5f15db7178a343ffb95e2bdf6276c8c1",
                     "refLink": [
                         "https://firebase.google.com/docs/database/web/start?authuser=0"
                     ]
-                }
-            ]
-        },
-        {
-            "date": "2021/07/22",
-            "studyList": [
+                },
                 {
                     "id": "55",
+                    "date": "2021/07/22",
                     "subject": "Card-Maker Project 4",
                     "arr": "Realtime Database 문제점 해결",
                     "myLink": "https://www.notion.so/card-maker-5f15db7178a343ffb95e2bdf6276c8c1",
                     "refLink": [
                         ""
                     ]
-                }
-            ]
-        },
-        {
-            "date": "2021/07/23",
-            "studyList": [
+                },
                 {
                     "id": "56",
+                    "date": "2021/07/23",
                     "subject": "Card-Maker Project 5",
                     "arr": "refactoring Data shape & relation func & add image with Cloudinary & add Loading",
                     "myLink": "https://www.notion.so/card-maker-5f15db7178a343ffb95e2bdf6276c8c1",
                     "refLink": [
                         "https://firebase.google.com/docs/database/web/read-and-write?authuser=0#read_data_once"
                     ]
-                }
-            ]
-        },
-        {
-            "date": "2021/07/24",
-            "studyList": [
+                },
                 {
                     "id": "57",
+                    "date": "2021/07/24",
                     "subject": "Card-Maker Project 6",
                     "arr": "delete 오류 해결, 성능 향상(useCallBack, me)",
                     "myLink": "https://www.notion.so/card-maker-5f15db7178a343ffb95e2bdf6276c8c1",
                     "refLink": [
                         "https://firebase.google.com/docs/database/web/read-and-write?authuser=0#read_data_once"
                     ]
-                }
-            ]
-        },
-        {
-            "date": "2021/07/25",
-            "studyList": [
+                },
                 {
                     "id": "58",
+                    "date": "2021/07/25",
                     "subject": "Card-Maker Project 7",
                     "arr": "Reafactoring Tags & Design web",
                     "myLink": "https://www.notion.so/card-maker-5f15db7178a343ffb95e2bdf6276c8c1",
@@ -697,6 +618,7 @@
                 },
                 {
                     "id": "59",
+                    "date": "2021/07/25",
                     "subject": "Card-Maker Project 정리",
                     "arr": "component 및 부족한 개념들 정리",
                     "myLink": "https://www.notion.so/card-maker-5f15db7178a343ffb95e2bdf6276c8c1",
@@ -706,5 +628,3 @@
                 }
             ]
         }
-  ]
-}
