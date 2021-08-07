@@ -1,9 +1,9 @@
 export default class Modal {
-  constructor({ $target, data }) {
-    this.data = data;
-    this.modalWrapper = document.createElement("div");
-    this.modalWrapper.className = "modal-wrapper";
-    this.modalWrapper.classList.add("hidden");
+  constructor({ $target }) {
+    this.data = null;
+    this.modalWrapper = document.createElement('div');
+    this.modalWrapper.className = 'modal-wrapper';
+    this.modalWrapper.classList.add('hidden');
 
     $target.appendChild(this.modalWrapper);
 
@@ -12,43 +12,43 @@ export default class Modal {
 
   // modal 내부 (컨텐츠 보여주기) div - span - a, ul(-li-a)
   modalInside() {
-    const modalContents = document.createElement("section");
-    modalContents.className = "modal-wrapper__contents";
+    const modalContents = document.createElement('section');
+    modalContents.className = 'modal-wrapper__contents';
 
-    const h2Subject = document.createElement("h2"); //제목
+    const h2Subject = document.createElement('h2'); //제목
     h2Subject.innerText = this.data.subject;
 
-    const spanArr = document.createElement("p"); //요약
-    spanArr.className = "arr";
+    const spanArr = document.createElement('p'); //요약
+    spanArr.className = 'arr';
     spanArr.innerText = this.data.arr;
 
-    const divMy = document.createElement("div"); //정리 노트
-    divMy.className = "myLink";
+    const divMy = document.createElement('div'); //정리 노트
+    divMy.className = 'myLink';
 
-    const spanMyMent = document.createElement("h3");
-    spanMyMent.innerText = "정리 노트";
+    const spanMyMent = document.createElement('h3');
+    spanMyMent.innerText = '정리 노트';
 
-    const aMyLink = document.createElement("a");
+    const aMyLink = document.createElement('a');
     if (this.data.myLink.length > 0) {
-      aMyLink.setAttribute("href", this.data.myLink);
-      aMyLink.innerText = "My Link is here!";
+      aMyLink.setAttribute('href', this.data.myLink);
+      aMyLink.innerText = 'My Link is here!';
     } else {
-      aMyLink.innerText = "아직 정리하지 않았네요;)";
+      aMyLink.innerText = '아직 정리하지 않았네요;)';
     }
 
-    const divRef = document.createElement("div"); //참조 링크
-    divRef.className = "refLink";
+    const divRef = document.createElement('div'); //참조 링크
+    divRef.className = 'refLink';
 
-    const spanRefMent = document.createElement("h3");
-    spanRefMent.innerText = "참조 링크";
+    const spanRefMent = document.createElement('h3');
+    spanRefMent.innerText = '참조 링크';
 
-    const ulRefLink = document.createElement("ul");
+    const ulRefLink = document.createElement('ul');
     this.data.refLink.forEach((element) => {
-      const liLinks = document.createElement("li");
-      const aLinks = document.createElement("a");
+      const liLinks = document.createElement('li');
+      const aLinks = document.createElement('a');
 
-      aLinks.innerText = element.length < 50 ? element : "Ref Link is here!";
-      aLinks.setAttribute("href", element);
+      aLinks.innerText = element.length < 50 ? element : 'Ref Link is here!';
+      aLinks.setAttribute('href', element);
 
       liLinks.appendChild(aLinks);
       ulRefLink.appendChild(liLinks);
@@ -70,18 +70,27 @@ export default class Modal {
 
   // modal 외부 (클릭 시 hidden)
   modalOutside() {
-    const modalOverlay = document.createElement("div");
-    modalOverlay.className = "modal-wrapper__overlay";
+    const modalOverlay = document.createElement('div');
+    modalOverlay.className = 'modal-wrapper__overlay';
 
-    modalOverlay.addEventListener("click", () => {
-      this.modalWrapper.classList.toggle("hidden");
+    modalOverlay.addEventListener('click', () => {
+      this.modalWrapper.classList.toggle('hidden');
+      this.modalWrapper.innerHTML = '';
     });
 
     this.modalWrapper.appendChild(modalOverlay);
   }
 
+  setState(data) {
+    this.modalWrapper.classList.toggle('hidden');
+    this.data = data;
+    this.render();
+  }
+
   render() {
-    this.modalInside();
-    this.modalOutside();
+    if (this.data) {
+      this.modalInside();
+      this.modalOutside();
+    }
   }
 }
