@@ -52,6 +52,7 @@
   letter-spacing: -0.2px;
   opacity: 0.9;
   font-size: 17px;
+  cursor: pointer;
 }
 
 .result-section__list:hover {
@@ -62,6 +63,7 @@
   position: fixed;
   top: 50%;
   z-index: 1;
+  cursor: pointer;
 }
 
 .fa-chevron-left {
