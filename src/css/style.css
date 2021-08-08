@@ -1,7 +1,7 @@
-@import "result.css";
-@import "search.css";
-@import "modal.css";
-@import "mobile.css";
+@import 'result.css';
+@import 'search.css';
+@import 'modal.css';
+@import 'mobile.css';
 
 .hidden {
   display: none;
@@ -9,7 +9,8 @@
 
 body {
   background-color: whitesmoke;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 .home-header {

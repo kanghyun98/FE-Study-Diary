@@ -1,9 +1,13 @@
 .result-section {
-  margin: 0 10%;
+  display: flex;
+  transition: transform;
 }
 
 .result-section__container {
-  margin-bottom: 50px;
+  padding: 0 10vw;
+  width: 80vw;
+  position: relative;
+  float: left;
 }
 
 .result-section__month {
@@ -52,4 +56,18 @@
 
 .result-section__list:hover {
   color: gray;
+}
+
+.fas {
+  position: fixed;
+  top: 50%;
+  z-index: 1;
+}
+
+.fa-chevron-left {
+  left: 5%;
+}
+
+.fa-chevron-right {
+  right: 5%;
 }

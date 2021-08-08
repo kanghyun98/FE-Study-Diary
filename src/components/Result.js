@@ -1,4 +1,5 @@
 import Box from './Box.js';
+import Slider from './Slider.js';
 
 export default class ResultSection {
   constructor({ $target, data, modalData, onClick }) {
@@ -6,10 +7,17 @@ export default class ResultSection {
     this.modalData = modalData;
     this.onClick = onClick;
 
+    this.leftIcon = document.createElement('i');
+    this.leftIcon.className = 'left-button hidden fas fa-chevron-left fa-lg';
+    this.rightIcon = document.createElement('i');
+    this.rightIcon.className = 'right-button fas fa-chevron-right fa-lg';
+
     this.divSection = document.createElement('section');
     this.divSection.className = 'result-section';
 
+    $target.appendChild(this.leftIcon);
     $target.appendChild(this.divSection);
+    $target.appendChild(this.rightIcon);
 
     this.render();
   }
@@ -21,6 +29,8 @@ export default class ResultSection {
 
   render() {
     this.divSection.innerHTML = '';
+
+    const slider = new Slider(this.data);
 
     const keyData = Object.keys(this.data);
     keyData.map((key) => {
