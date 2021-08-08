@@ -1,6 +1,6 @@
 .result-section {
   display: flex;
-  transition: transform;
+  transition: transform 0.7s ease-in-out;
 }
 
 .result-section__container {

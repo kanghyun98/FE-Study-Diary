@@ -5,7 +5,7 @@
   padding: 20px 10px;
 }
 
-.search-section input {
+.search-section__box {
   width: 500px;
   height: 40px;
   font-size: 20px;
