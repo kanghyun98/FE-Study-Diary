@@ -5,6 +5,9 @@ export default class Box {
     this.data = data; //일별 data
     this.box = document.createElement('section');
     this.box.className = 'result-section__box';
+    if (this.data.studyList.length > 6) {
+      this.box.className = 'result-section__large-box';
+    }
 
     $target.appendChild(this.box);
 

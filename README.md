@@ -57,8 +57,8 @@
   - [x] font
   - [x] semantic web
   - [x] fetch()
-  - [ ] 검색 결과 많을 시 처리 방법
-  - [ ] modal upgrade
+  - [x] 검색 결과 많을 시 처리 방법
+  - [x] modal upgrade
   - [ ] 다크 모드
   - [ ] 슬라이더
   - [ ] 여러 API 활용

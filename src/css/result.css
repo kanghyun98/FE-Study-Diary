@@ -21,7 +21,14 @@
 
 .result-section__box {
   width: 260px;
-  height: 300px;
+  height: 260px;
+  margin: 10px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 20px;
+}
+
+.result-section__large-box {
+  width: 260px;
   margin: 10px;
   background-color: rgb(235, 235, 235);
   border-radius: 20px;
@@ -35,17 +42,14 @@
 }
 
 .result-section__list {
-  padding: 5px 0;
+  margin: 4px 0px;
+  padding: 3px 0;
+  padding-right: 20px;
   letter-spacing: -0.2px;
   opacity: 0.9;
-}
-
-.result-section__lists p {
-  margin: 4px 0px;
-  padding-right: 20px;
   font-size: 17px;
 }
 
-.result-section__lists p:hover {
+.result-section__list:hover {
   color: gray;
 }
