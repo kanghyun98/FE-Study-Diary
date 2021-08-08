@@ -12,7 +12,7 @@ async function loadData() {
   }
 }
 
-const studyData = await loadData();
+const dailyData = await loadData();
 
 async function loadModalData() {
   try {
@@ -29,4 +29,4 @@ async function loadModalData() {
 
 const modalData = await loadModalData();
 
-export { studyData, modalData };
+export { dailyData, modalData };

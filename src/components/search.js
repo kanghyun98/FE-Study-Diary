@@ -2,8 +2,8 @@ export default class SearchSection {
   constructor({ $target, onSearch }) {
     this.onSearch = onSearch;
 
-    this.section = document.createElement("section");
-    this.section.className = "search-section";
+    this.section = document.createElement('section');
+    this.section.className = 'search-section';
 
     $target.appendChild(this.section);
 
@@ -11,11 +11,11 @@ export default class SearchSection {
   }
 
   render() {
-    const searchInput = document.createElement("input");
-    searchInput.className = "search-section__box";
-    searchInput.type = "search";
+    const searchInput = document.createElement('input');
+    searchInput.className = 'search-section__box';
+    searchInput.type = 'search';
 
-    searchInput.addEventListener("search", () => {
+    searchInput.addEventListener('search', () => {
       this.onSearch(searchInput.value); //검색값으로 찾기
     });
 

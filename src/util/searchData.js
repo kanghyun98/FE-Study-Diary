@@ -1,4 +1,4 @@
-import { saveData } from "./sessionStorage.js";
+import { saveData } from './sessionStorage.js';
 
 //검색 keyword와 data를 받아 검색 후, data에 검색 결과 obj를 추가한 데이터 return
 // 시간 지연
@@ -9,7 +9,7 @@ export function searchData(keyword, data) {
       const searchArr = new Array();
 
       if (keyword.length === 0) {
-        sessionStorage.removeItem("searchList");
+        sessionStorage.removeItem('searchList');
         resolve(data);
         return;
       }
@@ -24,19 +24,15 @@ export function searchData(keyword, data) {
       });
 
       //검색 결과 없음
-      if (searchArr.length === 0) alert("검색 결과가 존재하지 않습니다.");
+      if (searchArr.length === 0) alert('검색 결과가 존재하지 않습니다.');
 
       //검색 결과 object 생성
       const resultObj = new Object();
-      resultObj.date = "검색 결과";
+      resultObj.date = '검색 결과';
       resultObj.studyList = searchArr;
 
-      saveData("searchList", resultObj);
-
-      //studyData의 맨 앞에 검색 결과 object 추가
-      const result = data.slice();
-      result.unshift(resultObj);
-
+      saveData('searchList', resultObj);
+      const result = [resultObj];
       resolve(result);
     }, 700);
   });

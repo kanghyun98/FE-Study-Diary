@@ -1,4 +1,3 @@
-import { modalData } from '../util/api.js';
 import Box from './Box.js';
 
 export default class ResultSection {
