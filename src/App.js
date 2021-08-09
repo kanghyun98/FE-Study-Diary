@@ -7,6 +7,7 @@ import { dailyData, modalData } from './util/api.js';
 import { groupBy } from './util/groupBy.js';
 import { callData } from './util/sessionStorage.js';
 import { searchData } from './util/searchData.js';
+import { slider } from './util/slider.js';
 
 export default class App {
   constructor($target) {
@@ -31,7 +32,8 @@ export default class App {
     const resultSection = new ResultSection({
       $target,
       data,
-      modalData: modalData,
+      modalData,
+      slider,
       onClick: (data) => {
         detailModal.setState(data);
       },

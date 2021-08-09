@@ -1,4 +1,4 @@
-export default function slider(data) {
+export function slider(data) {
   const movePrev = document.querySelector('.left-button');
   const moveNext = document.querySelector('.right-button');
   const result_section = document.querySelector('.result-section');
@@ -26,14 +26,13 @@ export default function slider(data) {
 
   // 이동 버튼 초기 표시 여부(페이지 수에 따라)
   const basicButton = () => {
+    result_section.style.width = `${page * 100}vw`; // 페이지 수에 따른 넓이 설정
     if (page < 2) {
       moveNext.classList.add('hidden');
     } else {
       moveNext.classList.remove('hidden');
     }
   };
-
-  result_section.style.width = `${page * 100}vw`; // 페이지 수에 따른 넓이 설정
 
   basicButton();
 
