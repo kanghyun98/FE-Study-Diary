@@ -1,5 +1,5 @@
 import Box from './Box.js';
-import Slider from './Slider.js';
+import slider from '../util/slider.js';
 
 export default class ResultSection {
   constructor({ $target, data, modalData, onClick }) {
@@ -30,7 +30,7 @@ export default class ResultSection {
   render() {
     this.divSection.innerHTML = '';
 
-    const slider = new Slider(this.data);
+    slider(this.data);
 
     const keyData = Object.keys(this.data);
     keyData.map((key) => {
