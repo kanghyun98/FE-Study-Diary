@@ -8,6 +8,7 @@ import { groupBy } from './util/groupBy.js';
 import { callData } from './util/sessionStorage.js';
 import { searchData } from './util/searchData.js';
 import { slider } from './util/slider.js';
+import Darkmode from './components/darkmode.js';
 
 export default class App {
   constructor($target) {
@@ -16,6 +17,8 @@ export default class App {
     const data = callData('searchList')
       ? groupBy([savedData], 'date')
       : groupBy(dailyData, 'date');
+
+    const darkmode = new Darkmode({ $target });
 
     const searchSection = new SearchSection({
       $target,

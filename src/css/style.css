@@ -2,6 +2,7 @@
 @import 'search.css';
 @import 'modal.css';
 @import 'mobile.css';
+@import 'darkmode.css';
 
 .hidden {
   display: none;
@@ -12,6 +13,7 @@ body {
   background-color: whitesmoke;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
+  transition: background 300ms ease-in-out, color 300ms ease-in-out;
 }
 
 .home-header {
@@ -19,9 +21,26 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10%;
+  padding: 0 5%;
 }
 
 .home-header__title {
   font-size: 40px;
+}
+
+.dark {
+  background-color: gray;
+  color: white;
+}
+
+.dark .darkmode__button {
+  background-color: gray;
+}
+
+.dark .result-section__box {
+  background-color: darkgray;
+}
+
+.dark .modal-wrapper__contents {
+  background-color: darkgray;
 }

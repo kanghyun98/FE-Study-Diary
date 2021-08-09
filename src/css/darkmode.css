@@ -1,0 +1,45 @@
+.darkmode {
+  padding: 0 5%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.darkmode__area {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 48px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.darkmode__label {
+  background-color: darkgrey;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  width: inherit;
+  height: inherit;
+}
+
+.darkmode__label-LD {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.darkmode__button {
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  left: 1px;
+  width: 22px;
+  height: 22px;
+  transition: transform 300ms ease-in-out, background 300ms ease-in-out;
+}
