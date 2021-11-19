@@ -625,6 +625,214 @@
                     "refLink": [
                         "https://firebase.google.com/docs/database/web/read-and-write?authuser=0#read_data_once"
                     ]
-                }
-            ]
-        }
+                },
+                
+                {
+                    "id": "60",
+                    "date": "2021/07/26",
+                    "subject": "Deploy",
+                    "arr": "배포 방법 정리 및 card-maker, Youtube 배포",
+                    "myLink": "https://www.notion.so/83825fccbb984d2f81ab5e78c0036af7",
+                    "refLink": [
+                        "https://create-react-app.dev/docs/deployment/"
+                    ]
+                },
+                {
+                    "id": "61",
+                    "date": "2021/07/28",
+                    "subject": "TypeScript Settings",
+                    "arr": "타입스크립트 기본 설정 방법 정리 및 적용",
+                    "myLink": "https://github.com/20170781/TIL/blob/main/TypeScript/1_basic_settings.md",
+                    "refLink": [
+                        "https://react.vlpt.us/using-typescript/01-practice.html",
+                        "https://nomadcoders.co/typescript-for-beginners/lectures/1647"
+                    ]
+                },
+                {
+                    "id": "62",
+                    "date": "2021/07/28",
+                    "subject": "Atomic Design",
+                    "arr": "아토믹 디자인 기법에 대한 공부 및 정리",
+                    "myLink": "https://github.com/20170781/TIL/blob/main/React/13_Atomic_Design.md",
+                    "refLink": [
+                        "https://brunch.co.kr/@ultra0034/63",
+                        "https://medium.com/@inthewalter/atomic-design-for-react-514660f93ba?",
+                        "https://bradfrost.com/blog/post/atomic-web-design/#atoms"
+                    ]
+                        },
+                {
+                    "id": "63",
+                    "date": "2021/07/29",
+                    "subject": "React Rearrangement",
+                    "arr": "리액트 복습 및 노트 전체 재정리",
+                    "myLink": "https://github.com/20170781/TIL/tree/main/React",
+                    "refLink": [
+                        ""
+                    ]
+                        },
+                {
+                    "id": "64",
+                    "date": "2021/07/29",
+                    "subject": "BlockChain with TypeScript",
+                    "arr": "타입스크립트를 활용한 블록체인 클론 코딩",
+                    "myLink": "",
+                    "refLink": [
+                        "https://nomadcoders.co/typescript-for-beginners/lobby"
+                    ]
+                        },
+                {
+                    "id": "65",
+                    "date": "2021/07/30",
+                    "subject": "ESLint",
+                    "arr": "ESLint에 대한 이해, 정리, 적용",
+                    "myLink": "https://github.com/20170781/TIL/blob/main/ESLint/ESLint.md",
+                    "refLink": [
+                        ""
+                    ]
+                        },
+                {
+                    "id": "66",
+                    "date": "2021/07/30",
+                    "subject": "Prettier",
+                    "arr": "Prettier에 대한 이해, 정리, 적용",
+                    "myLink": "https://github.com/20170781/TIL/blob/main/Prettier/Prettier.md",
+                    "refLink": [
+                        ""
+                    ]
+                        },
+                {
+                    "id": "67",
+                    "date": "2021/07/30",
+                    "subject": "e.target & e.currentTarget",
+                    "arr": "e.target과 e.currentTarget의 차이점 이해",
+                    "myLink": "https://github.com/20170781/TIL/blob/main/JavaScript/DOM/event_target_currentTarget.md",
+                    "refLink": [
+                        ""
+                    ]
+                        },
+                {
+                    "id": "68",
+                    "date": "2021/07/30",
+                    "subject": "fetch, axios, REST API",
+                    "arr": "fetch와 axios의 차이점 이해, REST API에 대한 정리",
+                    "myLink": "https://github.com/20170781/TIL/tree/main/API",
+                    "refLink": [
+                        ""
+                    ]
+                        },
+                {
+                    "id": "69",
+                    "date": "2021/08/01",
+                    "subject": "TypeScript study: Types",
+                    "arr": "타입스크립트 변수와 함수 타입 학습",
+                    "myLink": "https://github.com/20170781/TIL/blob/main/TypeScript/3_Type_basics.md",
+                    "refLink": [
+                        "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8",
+                        "https://joshua1988.github.io/ts/intro.html"
+                    ]
+                        },
+                {
+                    "id": "70",
+                    "date": "2021/08/02",
+                    "subject": "todo-list with TypeScript",
+                    "arr": "타입스크립트 이용해 todo-list 만들어보기",
+                    "myLink": "https://github.com/20170781/Toy-Projects/tree/main/todo-list(ts)",
+                    "refLink": [
+                        ""
+                    ]
+                        },
+                {
+                    "id": "71",
+                    "date": "2021/08/03",
+                    "subject": "TypeScript study: Interface, Type Aliases, Enum, Class, Generic",
+                    "arr": "타입스크립트 인터페이스, 타입 별칭, 이넘, 클래스 ,제네릭 학습 및 정리",
+                    "myLink": "https://github.com/20170781/TIL/tree/main/TypeScript",
+                    "refLink": [
+                        "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8",
+                        "https://joshua1988.github.io/ts/intro.html"
+                    ]
+                        },
+                {
+                    "id": "72",
+                    "date": "2021/08/04",
+                    "subject": "TypeScript study: Type Inference, Assertion, Guard, Compatibility",
+                    "arr": "타입스크립트 타입 추론, 단언, 가드, 호환 학습 및 정리",
+                    "myLink": "https://github.com/20170781/TIL/tree/main/TypeScript",
+                    "refLink": [
+                        "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8",
+                        "https://joshua1988.github.io/ts/intro.html"
+                    ]
+                        },
+                {
+                    "id": "73",
+                    "date": "2021/08/05",
+                    "subject": "TypeScript study: Type Utility, Mapped",
+                    "arr": "타입스크립트 유틸리티, 맵드 타입 학습 및 정리",
+                    "myLink": "https://github.com/20170781/TIL/tree/main/TypeScript",
+                    "refLink": [
+                        "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%EC%A0%84",
+                        "https://joshua1988.github.io/ts/intro.html"
+                    ]
+                        },
+                {
+                    "id": "74",
+                    "date": "2021/08/05",
+                    "subject": "TypeScript Corona Chart 1",
+                    "arr": "자바스크립트 파일에 타입 적용 방법 학습, 점진적 타입 적용: any 적용 후 utils, API, DOM에 타입 적용",
+                    "myLink": "",
+                    "refLink": [
+                        "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%EC%A0%84"
+                    ]
+                        },
+                {
+                    "id": "75",
+                    "date": "2021/08/06",
+                    "subject": "TypeScript Corona Chart 2",
+                    "arr": "코로나 차트 파일에 점진적 타입 적용: 나머지 타입 적용",
+                    "myLink": "",
+                    "refLink": [
+                        "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%EC%A0%84"
+                    ]
+                        },
+                {
+                    "id": "76",
+                    "date": "2021/08/07",
+                    "subject": "TypeScript Corona Chart 3",
+                    "arr": "코로나 차트 파일에 점진적 타입 적용: strict 모드 적용, 오류 해결",
+                    "myLink": "",
+                    "refLink": [
+                        "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%EC%A0%84"
+                    ]
+                        },
+                {
+                    "id": "77",
+                    "date": "2021/08/08",
+                    "subject": "FE Study-Diary(Refactoring): Data Structure, Modal",
+                    "arr": "FE Stidy-Diary 프로젝트 데이터 구조 변경, 모달 구현 방식 변경",
+                    "myLink": "https://github.com/20170781/FE-Study-Diary",
+                    "refLink": [
+                        ""
+                    ]
+                        },
+                {
+                    "id": "78",
+                    "date": "2021/08/08",
+                    "subject": "FE Study-Diary(Add): Slider",
+                    "arr": "FE Stidy-Diary 프로젝트: 슬라이더 구현",
+                    "myLink": "https://github.com/20170781/FE-Study-Diary",
+                    "refLink": [
+                        ""
+                    ]
+                        },
+                {
+                    "id": "79",
+                    "date": "2021/08/09",
+                    "subject": "FE Study-Diary(Add):Dark Mode",
+                    "arr": "FE Stidy-Diary 프로젝트: 다크모드 버튼 구현",
+                    "myLink": "https://github.com/20170781/FE-Study-Diary",
+                    "refLink": [
+                        ""
+                    ]
+                        }
+    ]
+}
